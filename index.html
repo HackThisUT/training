@@ -1,4 +1,6 @@
-<!doctype html><html lang="de"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<!doctype html><html lang="de"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
 <link rel="manifest" href="./manifest.webmanifest">
 <meta name="theme-color" content="#21745c" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#111b18" media="(prefers-color-scheme: dark)">
@@ -6,9 +8,11 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Andreas">
-<link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png"><title>Andreas · Körperkompass v3</title>
+<meta name="format-detection" content="telephone=no">
+<link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png">
+<title>Andreas · Körperkompass v3</title>
 <style>
-:root{--bg:#f4f1e9;--panel:#fffdf8;--ink:#17231f;--muted:#708078;--line:#dfe5dc;--lime:#d7f36b;--green:#21745c;--mint:#bfe8cd;--orange:#e89b5b;--red:#c45d57;--shadow:0 18px 50px #18372a12;color-scheme:light}*{box-sizing:border-box}html[data-theme=dark]{--bg:#111b18;--panel:#1a2923;--ink:#eff5eb;--muted:#9daf9f;--line:#35463d;--green:#8dd6ab;--shadow:0 18px 50px #0005;color-scheme:dark}body{margin:0;background:radial-gradient(circle at 85% 0,#d7f36b33,transparent 32rem),var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.45}.app{max-width:1240px;margin:auto;padding:20px 18px 100px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.brand{font-family:Georgia,serif;font-size:1.45rem;font-weight:bold;letter-spacing:-.05em}.brand em{font-style:normal;color:var(--green)}.actions{display:flex;gap:8px}.icon{width:40px;height:40px;border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--ink);font-size:1.1rem}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:14px}.hero-main{background:var(--lime);color:#152119;border-radius:27px;padding:28px 30px;min-height:190px;position:relative;overflow:hidden}.hero-main:after{content:'';position:absolute;width:230px;height:230px;border:27px solid #fff6;border-radius:50%;right:-40px;bottom:-145px}.eyebrow{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--green)}h1{font:700 clamp(2.3rem,6vw,4.8rem)/.9 Georgia,serif;letter-spacing:-.08em;margin:12px 0}.hero-main p{max-width:420px;margin:0;font-size:1.03rem}.score{background:var(--panel);border:1px solid var(--line);border-radius:27px;padding:25px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}.score strong{font:700 3.4rem Georgia,serif}.bar{height:9px;background:var(--line);border-radius:10px;overflow:hidden;margin:12px 0}.bar i{display:block;height:100%;background:var(--green);border-radius:10px}.section-head{display:flex;justify-content:space-between;align-items:end;margin:30px 0 13px}.section-head h2{margin:0;font:700 1.65rem Georgia,serif;letter-spacing:-.04em}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:19px;padding:17px;box-shadow:var(--shadow)}.stat small,.label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.stat b{display:block;font:700 1.65rem Georgia,serif;margin:13px 0 2px}.tabs{display:flex;gap:5px;overflow:auto;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:18px;margin:24px 0}.tabs button{flex:1;white-space:nowrap;padding:11px 13px;border:0;border-radius:13px;background:transparent;color:var(--muted);font-weight:700}.tabs button.active{background:var(--green);color:#fff}.view{display:none}.view.active{display:block}.toolbar,.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.btn,.pill{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:10px 14px;font-weight:700}.btn.primary{background:var(--green);border-color:var(--green);color:#fff}.btn.soft{background:var(--lime);color:#152119;border-color:var(--lime)}.btn.danger{color:var(--red)}.btn.small{padding:6px 10px;font-size:.78rem}.fields{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}.field label{font-size:.72rem;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.06em}input,select,textarea{font:inherit;width:100%;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:10px}textarea{min-height:82px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal h3,.exercise h3,.supp h3{margin:0 0 5px;font:700 1.2rem Georgia,serif}.food{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:7px 0;font-size:.9rem}.food span:last-child{color:var(--muted);white-space:nowrap;margin-left:8px}.check{display:flex;gap:9px;align-items:center}.check input{width:19px;height:19px;accent-color:var(--green)}.done{opacity:.62}.days{display:flex;gap:6px;overflow:auto;margin:12px 0}.days button{min-width:76px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:9px;border-radius:12px}.days button.active{background:var(--green);color:#fff}.levels{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin:10px 0}.levels div{background:var(--bg);padding:7px;border-radius:9px;font-size:.78rem;text-align:center}.levels b{display:block;font-size:.62rem;color:var(--muted)}.table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);white-space:nowrap}th{font-size:.7rem;text-transform:uppercase;color:var(--muted)}.chart{width:100%;height:260px;background:var(--bg);border-radius:14px;margin-top:12px}.heat{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}.heat div{padding:10px 5px;text-align:center;border-radius:10px;background:var(--bg);font-size:.75rem}.heat i{display:block;width:17px;height:17px;margin:5px auto;border-radius:50%;background:var(--line)}.heat i.on{background:var(--green)}.notice{padding:12px 14px;background:#fff1d8;border-left:4px solid var(--orange);color:#634a2c;border-radius:8px;margin:12px 0}.darknotice{background:color-mix(in srgb,var(--green) 14%,transparent);padding:13px;border-radius:12px}.review{border-left:4px solid var(--lime)}.nav{position:fixed;z-index:5;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:4px;background:var(--ink);color:var(--bg);padding:8px;border-radius:22px;box-shadow:0 12px 40px #0005}.nav button{background:transparent;color:inherit;border:0;border-radius:14px;padding:10px 12px}.nav button.active{background:var(--lime);color:#152119}.timer{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-top:14px}.timer-display{font:700 2.8rem Georgia,serif;letter-spacing:.04em}.timer-mode{display:flex;gap:6px}.timer-mode button.active{background:var(--green);color:#fff}.chart-select{max-width:260px}.checklist{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}.checklist .card{box-shadow:none;padding:12px}.empty{padding:20px;text-align:center;color:var(--muted)}@media(max-width:780px){.checklist{grid-template-columns:repeat(2,1fr)}}.toast{position:fixed;z-index:9;top:16px;left:50%;transform:translate(-50%,-90px);background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:99px;transition:.25s}.toast.show{transform:translate(-50%,0)}@media(max-width:780px){.app{padding:14px 12px 92px}.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.fields{grid-template-columns:repeat(2,1fr)}.cards,.meal-grid{grid-template-columns:1fr}.nav{width:calc(100% - 18px);justify-content:space-around}.nav button{padding:10px 8px;font-size:.75rem}.nav button span{display:none}.nav button:after{content:attr(data-short);font-size:1.1rem}.levels{font-size:.7rem}}
+:root{--bg:#f4f1e9;--panel:#fffdf8;--ink:#17231f;--muted:#708078;--line:#dfe5dc;--lime:#d7f36b;--green:#21745c;--mint:#bfe8cd;--orange:#e89b5b;--red:#c45d57;--shadow:0 18px 50px #18372a12;color-scheme:light}*{box-sizing:border-box}html[data-theme=dark]{--bg:#111b18;--panel:#1a2923;--ink:#eff5eb;--muted:#9daf9f;--line:#35463d;--green:#8dd6ab;--shadow:0 18px 50px #0005;color-scheme:dark}body{margin:0;background:radial-gradient(circle at 85% 0,#d7f36b33,transparent 32rem),var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.45}.app{max-width:1240px;margin:auto;padding:20px 18px 24px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.brand{font-family:Georgia,serif;font-size:1.45rem;font-weight:bold;letter-spacing:-.05em}.brand em{font-style:normal;color:var(--green)}.actions{display:flex;gap:8px}.icon{width:40px;height:40px;border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--ink);font-size:1.1rem}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:14px}.hero-main{background:var(--lime);color:#152119;border-radius:27px;padding:28px 30px;min-height:190px;position:relative;overflow:hidden}.hero-main:after{content:'';position:absolute;width:230px;height:230px;border:27px solid #fff6;border-radius:50%;right:-40px;bottom:-145px}.eyebrow{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--green)}h1{font:700 clamp(2.3rem,6vw,4.8rem)/.9 Georgia,serif;letter-spacing:-.08em;margin:12px 0}.hero-main p{max-width:420px;margin:0;font-size:1.03rem}.score{background:var(--panel);border:1px solid var(--line);border-radius:27px;padding:25px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}.score strong{font:700 3.4rem Georgia,serif}.bar{height:9px;background:var(--line);border-radius:10px;overflow:hidden;margin:12px 0}.bar i{display:block;height:100%;background:var(--green);border-radius:10px}.section-head{display:flex;justify-content:space-between;align-items:end;margin:30px 0 13px}.section-head h2{margin:0;font:700 1.65rem Georgia,serif;letter-spacing:-.04em}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:19px;padding:17px;box-shadow:var(--shadow)}.stat small,.label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.stat b{display:block;font:700 1.65rem Georgia,serif;margin:13px 0 2px}.tabs{display:flex;gap:5px;overflow:auto;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:18px;margin:24px 0}.tabs button{flex:1;white-space:nowrap;padding:11px 13px;border:0;border-radius:13px;background:transparent;color:var(--muted);font-weight:700}.tabs button.active{background:var(--green);color:#fff}.view{display:none}.view.active{display:block}.toolbar,.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.btn,.pill{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:10px 14px;font-weight:700}.btn.primary{background:var(--green);border-color:var(--green);color:#fff}.btn.soft{background:var(--lime);color:#152119;border-color:var(--lime)}.btn.danger{color:var(--red)}.btn.small{padding:6px 10px;font-size:.78rem}.fields{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}.field label{font-size:.72rem;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.06em}input,select,textarea{font:inherit;width:100%;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:10px}textarea{min-height:82px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal h3,.exercise h3,.supp h3{margin:0 0 5px;font:700 1.2rem Georgia,serif}.food{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:7px 0;font-size:.9rem}.food span:last-child{color:var(--muted);white-space:nowrap;margin-left:8px}.check{display:flex;gap:9px;align-items:center}.check input{width:19px;height:19px;accent-color:var(--green)}.done{opacity:.62}.days{display:flex;gap:6px;overflow:auto;margin:12px 0}.days button{min-width:76px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:9px;border-radius:12px}.days button.active{background:var(--green);color:#fff}.levels{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin:10px 0}.levels div{background:var(--bg);padding:7px;border-radius:9px;font-size:.78rem;text-align:center}.levels b{display:block;font-size:.62rem;color:var(--muted)}.table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);white-space:nowrap}th{font-size:.7rem;text-transform:uppercase;color:var(--muted)}.chart{width:100%;height:260px;background:var(--bg);border-radius:14px;margin-top:12px}.heat{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}.heat div{padding:10px 5px;text-align:center;border-radius:10px;background:var(--bg);font-size:.75rem}.heat i{display:block;width:17px;height:17px;margin:5px auto;border-radius:50%;background:var(--line)}.heat i.on{background:var(--green)}.notice{padding:12px 14px;background:#fff1d8;border-left:4px solid var(--orange);color:#634a2c;border-radius:8px;margin:12px 0}.darknotice{background:color-mix(in srgb,var(--green) 14%,transparent);padding:13px;border-radius:12px}.review{border-left:4px solid var(--lime)}.timer{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-top:14px}.timer-display{font:700 2.8rem Georgia,serif;letter-spacing:.04em}.timer-mode{display:flex;gap:6px}.timer-mode button.active{background:var(--green);color:#fff}.chart-select{max-width:260px}.checklist{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}.checklist .card{box-shadow:none;padding:12px}.empty{padding:20px;text-align:center;color:var(--muted)}@media(max-width:780px){.checklist{grid-template-columns:repeat(2,1fr)}}.toast{position:fixed;z-index:9;top:16px;left:50%;transform:translate(-50%,-90px);background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:99px;transition:.25s}.toast.show{transform:translate(-50%,0)}@media(max-width:780px){.app{padding:14px 12px 18px}.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.fields{grid-template-columns:repeat(2,1fr)}.cards,.meal-grid{grid-template-columns:1fr}.levels{font-size:.7rem}}
 
 /* ===== Übungs-Info, Progression, Referenz-Tab (v3) ===== */
 .info-btn{
@@ -55,12 +59,92 @@
 @media(max-width:540px){.ex-info{padding:10px;font-size:13px}
   .ex-info .stage{grid-template-columns:28px 1fr}}
 
-/* ===== PWA / iOS safe-area & touch tweaks ===== */
-html,body{-webkit-tap-highlight-color:transparent;-webkit-text-size-adjust:100%;overscroll-behavior-y:contain}
-.top{padding-top:calc(14px + env(safe-area-inset-top));padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right)}
-.app{padding-left:calc(14px + env(safe-area-inset-left));padding-right:calc(14px + env(safe-area-inset-right))}
-.nav{bottom:calc(14px + env(safe-area-inset-bottom));padding-bottom:env(safe-area-inset-bottom)}
-body{padding-bottom:env(safe-area-inset-bottom)}
+/* ===== Smart Timer v2 ===== */
+.timer-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:6px;flex-wrap:wrap}
+.timer-top .label{margin:0}
+.timer-stage-pill{background:var(--bg);color:var(--ink);border:1px solid var(--line);font-weight:700;font-size:.72rem;padding:4px 9px;border-radius:999px;letter-spacing:.04em}
+.timer-sub{font-size:.78rem;margin:0 0 10px;color:var(--muted)}
+.timer-sub b{color:var(--ink)}
+.timer-quick{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.timer-quick .btn[data-preset].active{background:var(--lime);border-color:var(--lime);color:#152119}
+.timer-extra{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:8px}
+.stage-select{max-width:210px;padding:7px 10px;font-size:.82rem}
+.timer-side-pick .btn[data-side].active{background:var(--green);border-color:var(--green);color:#fff}
+.timer-side-pick,.timer-stage-pick{display:inline-flex;align-items:center;gap:6px}
+#timerStageSel{background:var(--panel)}
+.timer-mode{flex-wrap:wrap}
+.timer-mode .btn{min-width:auto}
+.timer-mode #timerAuto{background:var(--lime);border-color:var(--lime);color:#152119}
+.ex-card .ex-timer-btn{margin-top:10px}
+.ex-timer-btn{display:inline-flex;align-items:center;gap:6px;background:var(--bg);
+  border:1px solid var(--line);border-radius:99px;padding:5px 12px;font-size:.75rem;
+  cursor:pointer;color:var(--green);font-weight:700;width:auto}
+.ex-timer-btn:hover{background:var(--lime)}
+.ex-timer-btn b{font:700 .92rem Georgia,serif}
+.ex-timer-btn[data-armed=true]{background:var(--green);color:#fff;border-color:var(--green)}
+.timer-mini{display:inline-flex;align-items:center;gap:6px;background:var(--bg);
+  border:1px solid var(--line);border-radius:99px;padding:4px 10px;font-size:.75rem;
+  cursor:pointer;color:var(--green);font-weight:700}
+.timer-mini:hover{background:var(--lime)}
+.timer-mini b{font:700 .9rem Georgia,serif}
+.timer-progress{height:5px;background:var(--line);border-radius:99px;margin-top:10px;overflow:hidden}
+.timer-progress i{display:block;height:100%;background:var(--green);width:0%;transition:width .4s linear}
+.timer-display.running{color:var(--green)}
+
+/* ===== PWA / iOS safe-area & touch tweaks (iPhone 17 / Dynamic Island) ===== */
+html,body{
+  -webkit-tap-highlight-color:transparent;
+  -webkit-text-size-adjust:100%;
+  text-size-adjust:100%;
+  overscroll-behavior-y:contain;
+  touch-action:manipulation;
+  scroll-behavior:smooth;
+  min-height:100vh;
+  min-height:100svh;
+  min-height:100dvh;
+}
+.top{padding-top:calc(14px + env(safe-area-inset-top));padding-left:env(safe-area-inset-left);padding-right:env(safe-area-inset-right);padding-bottom:8px}
+.app{padding-left:calc(14px + env(safe-area-inset-left));padding-right:calc(14px + env(safe-area-inset-right));padding-bottom:calc(110px + env(safe-area-inset-bottom))}
+/* Prevent iOS auto-zoom on input focus (font-size >= 16px) */
+input[type=text],input[type=number],input[type=date],input[type=time],select,textarea{font-size:16px}
+/* Apple HIG: tap targets >= 44px */
+.btn{min-height:44px;padding:11px 16px}
+.btn.small{min-height:40px;padding:8px 12px}
+.icon{width:44px;height:44px}
+.btn:focus-visible{outline:2px solid var(--green);outline-offset:2px}
+/* ===== Docked Mini-Timer (sticky thumb-zone bar) ===== */
+#timerMini{
+  position:fixed;left:0;right:0;bottom:0;
+  z-index:60;
+  background:var(--panel);
+  border-top:1px solid var(--line);
+  box-shadow:0 -8px 30px #00000022;
+  display:none;
+  align-items:center;gap:10px;
+  padding:12px 14px calc(12px + env(safe-area-inset-bottom));
+  -webkit-backdrop-filter:saturate(180%) blur(14px);
+  backdrop-filter:saturate(180%) blur(14px);
+  background:color-mix(in srgb,var(--panel) 92%,transparent);
+}
+#timerMini.show{display:flex}
+#timerMini .mini-time{
+  font:700 clamp(1.6rem,6vw,2rem) ui-monospace,SFMono-Regular,Menlo,monospace;
+  color:var(--green);
+  font-variant-numeric:tabular-nums;
+  min-width:64px;text-align:center;line-height:1;
+}
+#timerMini .mini-info{flex:1;min-width:0}
+#timerMini .mini-info b{display:block;font-size:.95rem;line-height:1.15;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#timerMini .mini-info small{color:var(--muted);font-size:.78rem;display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#timerMini .mini-act{display:flex;gap:8px;align-items:center}
+#timerMini .mini-act .btn{padding:10px 14px;min-height:44px;font-size:1.05rem}
+@keyframes pulseGlow{0%{box-shadow:0 0 0 0 #c45d5766}70%{box-shadow:0 0 0 22px #c45d5700}100%{box-shadow:0 0 0 0 #c45d5700}}
+#timerMini.alert{animation:pulseGlow 1.1s ease-out 3;border-color:var(--red)}
+@keyframes restGlow{0%{box-shadow:0 0 0 0 #e89b5b66}70%{box-shadow:0 0 0 18px #e89b5b00}100%{box-shadow:0 0 0 0 #e89b5b00}}
+#timerMini.rest{animation:restGlow 1.1s ease-out 2;border-color:var(--orange)}
+body.hasMiniTimer{padding-bottom:88px}
+
+
 .ios-hint{position:fixed;z-index:50;left:12px;right:12px;bottom:calc(96px + env(safe-area-inset-bottom));background:var(--ink);color:var(--bg);padding:12px 14px;border-radius:14px;display:flex;gap:10px;align-items:center;box-shadow:0 12px 40px #0005;font-size:.85rem}
 .ios-hint b{color:var(--lime)}
 .ios-hint button{margin-left:auto;background:transparent;border:1px solid var(--bg);color:var(--bg);border-radius:99px;padding:4px 10px;font-size:.75rem}
@@ -69,7 +153,71 @@ body{padding-bottom:env(safe-area-inset-bottom)}
 <div class="tabs" id="tabs"><button class="active" data-view="dashboard">Dashboard</button><button data-view="profile">Profil</button><button data-view="training">Training</button><button data-view="nutrition">Ernährung</button><button data-view="supplements">Supps</button><button data-view="tracking">Tracking</button><button data-view="review">Review</button><button data-view="tips">Tipps</button><button data-view="exercises">Übungen</button></div>
 <section id="dashboard" class="view active"><div class="section-head"><h2>Überblick</h2><small class="muted" id="dateLabel"></small></div><div class="grid"><div class="stat"><span class="label">Gewicht</span><b id="dWeight">78 kg</b><small class="muted" id="dWeightSub">Start 78 · Ziel 74</small></div><div class="stat"><span class="label">Bauchumfang</span><b id="dWaist">101 cm</b><small class="muted" id="dWaistSub">Start 101 · Ziel 92</small></div><div class="stat"><span class="label">BMI</span><b id="dBmi">23,5</b><small class="muted" id="dBmiSub">Normalbereich</small></div><div class="stat"><span class="label">WHtR</span><b id="dWhtr">0,55</b><small class="muted">Ziel &lt; 0,50</small></div></div><div class="section-head"><h2>Programm</h2><div class="row"><span class="pill" id="weekLabel">Woche 1</span><button class="btn small" id="weekMinus">−</button><button class="btn small" id="weekPlus">+</button></div></div><div class="card"><div class="row" style="justify-content:space-between"><b id="progressText">0% Weg zum Ziel</b><span class="muted" id="streak">Streak: 0 Tage</span></div><div class="bar"><i id="goalbar"></i></div><div class="heat" id="heat"></div></div><div class="section-head"><h2>Verlauf</h2></div><div class="card"><svg id="trend" class="chart" viewBox="0 0 900 260" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Tages-Checkliste</h2><div class="row"><button class="btn small" id="checkPrev">‹</button><span class="pill" id="checkDate"></span><button class="btn small" id="checkNext">›</button></div></div><div id="checklist" class="checklist"></div></section>
 <section id="profile" class="view"><div class="section-head"><h2>Profil & Ziele</h2><span class="pill">automatisch berechnet</span></div><div class="card"><div class="fields" id="profileFields"></div><div class="row" style="margin-top:14px"><button class="btn primary" id="saveProfile">Profil speichern</button><span class="muted">Mifflin-St Jeor · Defizit wird aus Aktivität abgeleitet</span></div></div><div class="section-head"><h2>Deine Kennzahlen</h2></div><div class="grid"><div class="stat"><span class="label">Grundumsatz</span><b id="bmr">–</b></div><div class="stat"><span class="label">Gesamtumsatz</span><b id="tdee">–</b></div><div class="stat"><span class="label">Empfohlenes Defizit</span><b id="deficit">–</b></div><div class="stat"><span class="label">Avatar</span><b id="avatar">A</b></div></div></section>
-<section id="training" class="view"><div class="section-head"><h2>Training</h2><div class="row"><select id="trainWeek" style="width:auto"></select><button class="btn soft" id="copyWeek">Session letzte Woche kopieren</button></div></div><div </div><div class="card timer"><div><div class="label">Übungs-Timer · <span id="timerExercise">Plank</span></div><div id="timerDisplay" class="timer-display">00:30</div><div class="timer-mode"><button class="btn small active" data-timer-mode="countdown">Countdown</button><button class="btn small" data-timer-mode="stopwatch">Stoppuhr</button></div></div><div class="row"><button class="btn primary" id="timerStart">Start</button><button class="btn" id="timerPause">Pause</button><button class="btn" id="timerReset">Reset</button></div></div><div class="card"><div class="fields"><div class="field"><label>Datum</label><input id="trDate" type="date"></div><div class="field"><label>Einheit / Notiz</label><input id="trNote" placeholder="z. B. Ganzkörper A"></div><div class="field"><label>RPE</label><input id="trRpe" type="number" min="1" max="10" placeholder="7"></div><div class="field"><label>Übung <button type="button" class="info-btn" id="exInfoBtn" title="Details &amp; Progression">?</button></label><select id="trExercise"></select><div id="exInfoPanel"></div></div><div class="field"><label>Sätze</label><input id="trSets" type="number" value="2"></div><div class="field"><label>Wdh. / Sekunden</label><input id="trReps" type="number" value="8"></div><div class="field"><label>Gewicht (kg)</label><input id="trWeight" type="number" step="0.5" value="0"></div><div class="field"><label>Notiz</label><input id="trExNote" placeholder="Technik, Gefühl …"></div></div><div class="row" style="margin-top:14px"><button class="btn primary" id="saveTraining">Einheit speichern</button><button class="btn" id="clearTraining">Leeren</button></div></div><div class="section-head"><h2>Einheiten Woche <span id="trainWeekTitle">1</span></h2></div><div class="card table"><table><thead><tr><th>Datum</th><th>Übung</th><th>Sätze × Wdh.</th><th>kg</th><th>RPE</th><th></th></tr></thead><tbody id="trainingRows"></tbody></table></div><div class="section-head"><h2>Fortschritt pro Übung</h2><select id="exerciseChartSelect" class="chart-select"></select></div><div class="card"><svg id="exerciseChart" class="chart" viewBox="0 0 900 240" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Volumen pro Woche</h2></div><div class="card"><svg id="volumeChart" class="chart" viewBox="0 0 900 240" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Fußübungen</h2><span class="pill">Einlagen links</span></div><div class="card"><div class="fields"><div class="field"><label>Fußübung ergänzen</label><input id="footName" placeholder="z. B. Zehen spreizen"></div><div class="field"><label>Notiz</label><input id="footNote" placeholder="2 × 60 Sekunden"></div><div class="field"><label>Datum</label><input id="footDate" type="date"></div><div class="field"><label>&nbsp;</label><button class="btn primary" id="addFoot">Fußübung speichern</button></div></div><div id="footRows" style="margin-top:14px"></div></div></section>
+<section id="training" class="view"><div class="section-head"><h2>Training</h2><div class="row"><select id="trainWeek" style="width:auto"></select><button class="btn soft" id="copyWeek">Session letzte Woche kopieren</button></div></div><div </div><div class="card timer">
+  <div class="timer-top">
+    <div class="label">Übungs-Timer · <span id="timerExercise">Plank</span></div>
+    <span id="timerStagePill" class="timer-stage-pill">Stufe 2 · 30 s · 1 Seite</span>
+  </div>
+  <div id="timerDisplay" class="timer-display">00:30</div>
+  <div class="timer-progress"><i id="timerBar"></i></div>
+  <div class="timer-sub" id="timerHint">Stufe 2 = Stabilisierung (Wochen 3–4) · Plan-Vorgabe · Pause nach Satz ≈ 30 s</div>
+
+  <div class="row timer-quick" role="group" aria-label="Schnellauswahl Dauer">
+    <button class="btn small" data-preset="10"  title="10 Sekunden">10s</button>
+    <button class="btn small" data-preset="20"  title="20 Sekunden">20s</button>
+    <button class="btn small" data-preset="30"  title="30 Sekunden">30s</button>
+    <button class="btn small" data-preset="45"  title="45 Sekunden">45s</button>
+    <button class="btn small" data-preset="60"  title="60 Sekunden">60s</button>
+    <button class="btn small" data-preset="90"  title="90 Sekunden">90s</button>
+    <button class="btn small" data-preset="120" title="2 Minuten">2 Min</button>
+    <button class="btn small" data-preset="300" title="5 Minuten">5 Min</button>
+    <button class="btn small" data-preset="rest" title="Pausen-Timer">⏸ Pause</button>
+  </div>
+
+  <div class="timer-extra">
+    <button class="btn small" data-adj="-30" title="30 Sekunden weniger">−30s</button>
+    <button class="btn small" data-adj="-10" title="10 Sekunden weniger">−10s</button>
+    <button class="btn small" data-adj="+10" title="10 Sekunden mehr">+10s</button>
+    <button class="btn small" data-adj="+30" title="30 Sekunden mehr">+30s</button>
+    <span class="timer-stage-pick">
+      <label for="timerStageSel" class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Stufe</label>
+      <select id="timerStageSel" class="stage-select" title="Progressions-Stufe">
+        <option value="0">1 · Einstieg (Wo. 1–2)</option>
+        <option value="1">2 · Stabilisierung (Wo. 3–4)</option>
+        <option value="2">3 · Intensivierung (Wo. 5–6)</option>
+        <option value="3">4 · Konsolidierung (Wo. 7–8)</option>
+      </select>
+    </span>
+    <span class="timer-side-pick" id="timerSidePick" hidden>
+      <label class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Seite</label>
+      <button class="btn small" data-side="L">Links</button>
+      <button class="btn small" data-side="R">Rechts</button>
+      <button class="btn small" data-side="both">Beide</button>
+    </span>
+  </div>
+
+  <div class="timer-mode" style="margin-top:10px">
+    <button class="btn small active" data-timer-mode="countdown">Countdown</button>
+    <button class="btn small" data-timer-mode="stopwatch">Stoppuhr</button>
+    <button class="btn small" data-timer-mode="intervals">Intervall × N</button>
+    <button class="btn small" id="timerAuto" title="Dauer aus gewählter Übung ableiten">An Übung anpassen</button>
+  </div>
+
+  <div class="timer-extra" id="timerIntervalsRow" hidden>
+    <label class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Wdh.</label>
+    <input id="timerIntervals" type="number" min="1" max="20" value="3" style="max-width:70px;padding:7px 10px">
+    <label class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Pause</label>
+    <input id="timerRest" type="number" min="0" max="300" value="20" style="max-width:70px;padding:7px 10px">
+    <span class="muted" style="font-size:.78rem">Sek. zwischen Sätzen</span>
+  </div>
+
+  <div class="row" style="margin-top:12px">
+    <button class="btn primary" id="timerStart">Start</button>
+    <button class="btn" id="timerPause">Pause</button>
+    <button class="btn" id="timerReset">Reset</button>
+    <button class="btn soft" id="timerBeep" title="Beep testen">🔔</button>
+  </div>
+</div><div class="card"><div class="fields"><div class="field"><label>Datum</label><input id="trDate" type="date"></div><div class="field"><label>Einheit / Notiz</label><input id="trNote" placeholder="z. B. Ganzkörper A"></div><div class="field"><label>RPE</label><input id="trRpe" type="number" min="1" max="10" placeholder="7"></div><div class="field"><label>Übung <button type="button" class="info-btn" id="exInfoBtn" title="Details &amp; Progression">?</button></label><select id="trExercise"></select><div id="exInfoPanel"></div></div><div class="field"><label>Sätze</label><input id="trSets" type="number" value="2"></div><div class="field"><label>Wdh. / Sekunden</label><input id="trReps" type="number" value="8"></div><div class="field"><label>Gewicht (kg)</label><input id="trWeight" type="number" step="0.5" value="0"></div><div class="field"><label>Notiz</label><input id="trExNote" placeholder="Technik, Gefühl …"></div></div><div class="row" style="margin-top:14px"><button class="btn primary" id="saveTraining">Einheit speichern</button><button class="btn" id="clearTraining">Leeren</button></div></div><div class="section-head"><h2>Einheiten Woche <span id="trainWeekTitle">1</span></h2></div><div class="card table"><table><thead><tr><th>Datum</th><th>Übung</th><th>Sätze × Wdh.</th><th>kg</th><th>RPE</th><th></th></tr></thead><tbody id="trainingRows"></tbody></table></div><div class="section-head"><h2>Fortschritt pro Übung</h2><select id="exerciseChartSelect" class="chart-select"></select></div><div class="card"><svg id="exerciseChart" class="chart" viewBox="0 0 900 240" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Volumen pro Woche</h2></div><div class="card"><svg id="volumeChart" class="chart" viewBox="0 0 900 240" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Fußübungen</h2><span class="pill">Einlagen links</span></div><div class="card"><div class="fields"><div class="field"><label>Fußübung ergänzen</label><input id="footName" placeholder="z. B. Zehen spreizen"></div><div class="field"><label>Notiz</label><input id="footNote" placeholder="2 × 60 Sekunden"></div><div class="field"><label>Datum</label><input id="footDate" type="date"></div><div class="field"><label>&nbsp;</label><button class="btn primary" id="addFoot">Fußübung speichern</button></div></div><div id="footRows" style="margin-top:14px"></div></div></section>
 <section id="nutrition" class="view"><div class="section-head"><h2>Ernährung</h2><span class="pill" id="calTarget">1.800 kcal · 137 g Protein</span></div><div class="days" id="mealDays"></div><div class="toolbar"><button class="btn soft" id="extraBtn">+ Extra gegessen</button><span class="muted" id="mealSummary"></span></div><div class="meal-grid" id="mealList"></div><div class="section-head"><h2>Wasser</h2></div><div class="card"><div class="row"><b id="waterText">0 / 8 Gläser</b><button class="btn" id="waterMinus">−</button><button class="btn primary" id="waterPlus">+ Glas</button></div></div></section>
 <section id="supplements" class="view"><div class="section-head"><h2>Supplemente</h2><button class="btn soft" id="addSupp">+ Supplement</button></div><div class="supp-grid cards" id="suppList"></div><div class="section-head"><h2>Compliance</h2></div><div class="card"><svg id="suppChart" class="chart" viewBox="0 0 900 220" preserveAspectRatio="none"></svg></div></section>
 <section id="tracking" class="view"><div class="section-head"><h2>Messungen</h2><span class="pill">Datum: <span id="trackDateLabel"></span></span></div><div class="card"><div class="fields"><div class="field"><label>Datum</label><input id="mDate" type="date"></div><div class="field"><label>Gewicht kg</label><input id="mWeight" type="number" step="0.1"></div><div class="field"><label>Bauch cm</label><input id="mWaist" type="number" step="0.1"></div><div class="field"><label>Hüfte cm</label><input id="mHip" type="number" step="0.1"></div><div class="field"><label>Schlaf h</label><input id="mSleep" type="number" step="0.1"></div><div class="field"><label>Schritte</label><input id="mSteps" type="number"></div><div class="field"><label>Energie 1–5</label><input id="mEnergy" type="number" min="1" max="5"></div><div class="field"><label>Stimmung 1–5</label><input id="mMood" type="number" min="1" max="5"></div></div><div class="row" style="margin-top:14px"><button class="btn primary" id="addMeasurement">Messung speichern</button><button class="btn" id="csvMeasurements">CSV Messungen</button><button class="btn" id="csvTraining">CSV Training</button></div></div><div class="section-head"><h2>Verlauf & Wochenvergleich</h2></div><div class="card"><svg id="measureChart" class="chart" viewBox="0 0 900 280" preserveAspectRatio="none"></svg><div class="row" style="margin-top:12px"><span class="pill" id="weekCompare">Noch kein Wochenvergleich</span><span class="pill" id="whtrZone">WHtR-Zone: –</span><span class="pill" id="rollingAvg">7-Tage-Schnitt: –</span></div></div><div class="card table" style="margin-top:12px"><table><thead><tr><th>Datum</th><th>Gewicht</th><th>Bauch</th><th>Schlaf</th><th>Schritte</th><th>Aktion</th></tr></thead><tbody id="measurementRows"></tbody></table></div></section>
@@ -84,7 +232,7 @@ body{padding-bottom:env(safe-area-inset-bottom)}
   <div </div>
   <div id="exercisesRef"></div>
 </section>
-</main><nav class="nav" id="nav"><button class="active" data-view="dashboard" data-short="⌂">Dashboard <span>⌂</span></button><button data-view="profile" data-short="◎">Profil <span>◎</span></button><button data-view="training" data-short="↗">Training <span>↗</span></button><button data-view="nutrition" data-short="◒">Ernährung <span>◒</span></button><button data-view="tracking" data-short="▥">Tracking <span>▥</span></button><button data-view="tips" data-short="i">Mehr <span>i</span></button><button data-view="exercises" data-short="?">Übungen <span>?</span></button></nav>
+</main>
 <script>
 const EX=[['Dead Bug','Aktivierung','2×6','2×8','3×8–10','3×10–12'],['Wandhocke','Beine & Gesäß','2×20 Sek.','2×30 Sek.','3×30–45 Sek.','3×45–60 Sek.'],['Kniebeugen','Beine & Gesäß','2×8–10','2×10–12','3×10–15','3×15–20'],['Ausfallschritt','Beine & Gesäß','2×6','2×8','3×8–10','3×10–12'],['Beckenlift','Beine & Gesäß','2×10–12','2×12–15','3×15–20','3×20–25'],['Liegestütze','Oberkörper','2×5–8','2×8–10','3×8–12','3×10–15'],['Schulterdrücken','Oberkörper','2×6–8','2×8–10','3×8–12','3×10–15'],['Trizeps-Dips','Oberkörper','2×5–8','2×8–10','3×8–12','3×10–15'],['Tischrudern','Oberkörper','2×8–10','2×10–12','3×12–15','3×15–20'],['KH-Hammer-Curls','Oberkörper','2×8–10','2×10–12','3×10–12','3×12–15'],['Superman Hold','Rumpf','2×15 Sek.','2×20 Sek.','3×20–30 Sek.','3×30–45 Sek.'],['Plank','Rumpf','2×20 Sek.','2×30 Sek.','3×30–45 Sek.','3×45–60 Sek.'],['Negativer Sit-Up','Rumpf','2×5–8','2×8','3×8–12','3×10–15']];
 const MEALS=[['Frühstück',500,42,[['Sojajoghurt','150 g'],['Proteinpulver (Koro)','40 g'],['Haferflocken','10 g'],['Leinsamen','10 g'],['Mandeln','10 g'],['Apfel','100 g'],['Kürbiskerne','10 g']]],['Mittagessen',500,26,[['Quinoa gekocht','100 g'],['Hülsenfrüchte','120 g'],['Tofu','100 g'],['Gemüse','250 g'],['Olivenöl','5 ml']]],['Snack',102,21,[['Proteindrink (Koro)','30 g']]],['Abendessen',700,48,[['Tofu','200 g'],['Linsen trocken','80 g'],['Gemüse','350 g'],['Leinsamen','10 g']]]];
@@ -117,8 +265,631 @@ document.getElementById('addMeasurement').onclick=()=>{let x={id:Date.now().toSt
 function csv(arr,headers,name){let s=[headers.join(';'),...arr.map(x=>headers.map(h=>x[h]??'').join(';'))].join('\n');let a=document.createElement('a');a.href=URL.createObjectURL(new Blob([s],{type:'text/csv'}));a.download=name;a.click()}document.getElementById('csvMeasurements').onclick=()=>csv(S.measurements,['date','weight','waist','hip','sleep','steps','energy','mood'],'andreas-messungen.csv');document.getElementById('csvTraining').onclick=()=>csv(S.training,['date','week','exercise','sets','reps','weight','rpe','note'],'andreas-training.csv');
 function renderReview(){document.getElementById('reviewList').innerHTML=S.reviews.length?S.reviews.slice().reverse().map(r=>`<article class="card review"><b>${r.date}</b><p><strong>Gut:</strong> ${esc(r.good)}</p><p><strong>Leichter:</strong> ${esc(r.easy)}</p><p><strong>Fokus:</strong> ${esc(r.focus)}</p></article>`).join(''):'<div class="card muted">Noch keine Reviews gespeichert.</div>'}document.getElementById('saveReview').onclick=()=>{S.reviews.push({date:today(),good:document.getElementById('rGood').value,easy:document.getElementById('rEasy').value,focus:document.getElementById('rFocus').value});document.getElementById('rGood').value='';document.getElementById('rEasy').value='';document.getElementById('rFocus').value='';save('Review gespeichert')};
 document.getElementById('resetApp').onclick=()=>{if(confirm('Alle App-Daten wirklich löschen?')){localStorage.removeItem('andreasKompassV2');location.reload()}};
-const addExerciseBtn=document.createElement('button');addExerciseBtn.className='btn';addExerciseBtn.textContent='+ Eigene Übung';addExerciseBtn.onclick=()=>{let n=prompt('Name der Übung?');if(n){S.customExercises.push([n,'Eigene Übung','2×8','2×10','3×10','3×12']);save('Übung hinzugefügt')}};document.querySelector('#training .section-head').querySelector('.row').appendChild(addExerciseBtn);
-let timer={mode:'countdown',seconds:30,running:false,handle:null};function timerPaint(){let s=timer.seconds;document.getElementById('timerDisplay').textContent=String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0')}function timerStop(){clearInterval(timer.handle);timer.running=false}document.getElementById('timerStart').onclick=()=>{if(timer.running)return;timer.running=true;timer.handle=setInterval(()=>{timer.seconds+=timer.mode==='stopwatch'?1:-1;if(timer.seconds<=0){timer.seconds=0;timerStop();beep()}timerPaint()},1000)};document.getElementById('timerPause').onclick=timerStop;document.getElementById('timerReset').onclick=()=>{timerStop();timer.seconds=timer.mode==='countdown'?30:0;timerPaint()};document.querySelectorAll('[data-timer-mode]').forEach(b=>b.onclick=()=>{timerStop();timer.mode=b.dataset.timerMode;timer.seconds=timer.mode==='countdown'?30:0;document.querySelectorAll('[data-timer-mode]').forEach(x=>x.classList.toggle('active',x===b));timerPaint()});document.getElementById('trExercise').onchange=e=>document.getElementById('timerExercise').textContent=allExercises()[+e.target.value]?.[0]||'Übung';function beep(){try{let a=new AudioContext(),o=a.createOscillator();o.connect(a.destination);o.start();o.stop(a.currentTime+.12)}catch(e){toast('Timer fertig')}}
+const addExerciseBtn=document.createElement('button');addExerciseBtn.className='btn';addExerciseBtn.textContent='+ Eigene Übung';addExerciseBtn.onclick=()=>{
+  let n=prompt('Name der Übung?');
+  if(!n) return;
+  S.customExercises.push([n,'Eigene Übung','2×8','2×10','3×10','3×12']);
+  // ask for kind so timer can be smart
+  const k=prompt('Timer-Typ? (time = Halte-Zeit in Sek. | reps = Wiederholungen, sonst manuell)','time');
+  if(k==='time'||k==='reps'){
+    const d=prompt('Stufe 1 Dauer in Sek.?', k==='time'?'20':'8');
+    const r=prompt('Pause nach Satz in Sek.?','30');
+    const stages=[
+      {sec:Number(d)||(k==='time'?20:8)*3, sides:1, rest:Number(r)||30},
+      {sec:(Number(d)||(k==='time'?20:8)*3)+10, sides:1, rest:Number(r)||30},
+      {sec:(Number(d)||(k==='time'?20:8)*3)+15, sides:1, rest:Number(r)||30},
+      {sec:(Number(d)||(k==='time'?20:8)*3)+25, sides:1, rest:Number(r)||30}
+    ];
+    if(k==='reps'){
+      stages.forEach((s,i)=>{s.reps=Math.round((s.sec||24)/3); delete s.sec;});
+    }
+    EX_TIMES[n]={kind:k, stages, desc:'Eigene Übung'};
+  }
+  save('Übung hinzugefügt');
+};
+document.querySelector('#training .section-head').querySelector('.row').appendChild(addExerciseBtn);
+
+/* ===== Smart Timer v2 (intelligent, exercise-aware) ===== */
+const EX_TIMES={
+  'Dead Bug':         {kind:'reps', stages:[{reps:6,sides:2,rest:10},{reps:8,sides:2,rest:12},{reps:9,sides:2,rest:15},{reps:11,sides:2,rest:15}],
+                        desc:'Kontrolle pro Seite, kein Rückenheben'},
+  'Wandhocke':        {kind:'time', stages:[{sec:20,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:37,sides:1,rest:30},{sec:52,sides:1,rest:30}],
+                        desc:'Spannung halten, ruhig atmen'},
+  'Kniebeugen':       {kind:'reps', stages:[{reps:9,sides:1,rest:60},{reps:11,sides:1,rest:60},{reps:12,sides:1,rest:60},{reps:17,sides:1,rest:60}],
+                        desc:'Tempo 2 s runter / 1 s hoch'},
+  'Ausfallschritt':   {kind:'reps', stages:[{reps:6,sides:2,rest:45},{reps:8,sides:2,rest:45},{reps:9,sides:2,rest:45},{reps:11,sides:2,rest:45}],
+                        desc:'Pro Seite sauber abfedern'},
+  'Beckenlift':       {kind:'reps', stages:[{reps:11,sides:1,rest:30},{reps:13,sides:1,rest:30},{reps:17,sides:1,rest:30},{reps:22,sides:1,rest:30}],
+                        desc:'Oben 1 s halten'},
+  'Liegestütze':      {kind:'reps', stages:[{reps:6,sides:1,rest:60},{reps:9,sides:1,rest:60},{reps:10,sides:1,rest:60},{reps:12,sides:1,rest:60}],
+                        desc:'Tempo 2–3 s absenken'},
+  'Schulterdrücken':  {kind:'reps', stages:[{reps:7,sides:1,rest:60},{reps:9,sides:1,rest:60},{reps:10,sides:1,rest:60},{reps:12,sides:1,rest:60}],
+                        desc:'Bauch fest'},
+  'Trizeps-Dips':     {kind:'reps', stages:[{reps:6,sides:1,rest:45},{reps:9,sides:1,rest:45},{reps:10,sides:1,rest:45},{reps:12,sides:1,rest:45}],
+                        desc:'Ellenbogen nah am Körper'},
+  'Tischrudern':      {kind:'reps', stages:[{reps:9,sides:1,rest:45},{reps:11,sides:1,rest:45},{reps:13,sides:1,rest:45},{reps:17,sides:1,rest:45}],
+                        desc:'Aus dem Rücken ziehen'},
+  'KH-Hammer-Curls':  {kind:'reps', stages:[{reps:9,sides:1,rest:30},{reps:11,sides:1,rest:30},{reps:11,sides:1,rest:30},{reps:13,sides:1,rest:30}],
+                        desc:'Kein Schwung'},
+  'Superman Hold':    {kind:'time', stages:[{sec:15,sides:1,rest:20},{sec:20,sides:1,rest:20},{sec:25,sides:1,rest:20},{sec:37,sides:1,rest:20}],
+                        desc:'Klein anheben, weiteratmen'},
+  'Plank':            {kind:'time', stages:[{sec:20,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:37,sides:1,rest:30},{sec:52,sides:1,rest:30}],
+                        desc:'Linie halten, nicht ins Hohlkreuz'},
+  'Negativer Sit-Up': {kind:'reps', stages:[{reps:6,sides:1,rest:45},{reps:8,sides:1,rest:45},{reps:10,sides:1,rest:45},{reps:12,sides:1,rest:45}],
+                        desc:'Tempo 3–5 s absenken'}
+};
+const FOOT_TIMES={
+  'Zehen spreizen':              {kind:'time', stages:[{sec:30,sides:2,rest:10},{sec:45,sides:2,rest:10},{sec:60,sides:2,rest:10},{sec:45,sides:2,rest:10}], desc:'Beide Füße'},
+  'Fußgewölbe heben (Short Foot)':{kind:'time',stages:[{sec:3,sides:2,reps:10,rest:10},{sec:4,sides:2,reps:12,rest:10},{sec:5,sides:2,reps:10,rest:10},{sec:4,sides:2,reps:8,rest:10}], desc:'3–5 s halten'},
+  'Waden heben & senken':         {kind:'reps', stages:[{reps:12,sides:1,rest:20},{reps:15,sides:1,rest:20},{reps:10,sides:2,rest:20},{reps:12,sides:1,rest:20}], desc:'3 s runter'},
+  'Handtuch einrollen':           {kind:'reps', stages:[{reps:20,sides:1,rest:15},{reps:25,sides:1,rest:15},{reps:30,sides:1,rest:15},{reps:30,sides:1,rest:15}], desc:'Ferse bleibt unten'},
+  'Balance-Pad stehen':           {kind:'time', stages:[{sec:30,sides:1,rest:15},{sec:30,sides:1,rest:15},{sec:20,sides:2,rest:15},{sec:15,sides:2,rest:15}], desc:'Augen ggf. zu'},
+  'Marble Pickup':                {kind:'reps', stages:[{reps:10,sides:2,rest:15},{reps:10,sides:2,rest:15},{reps:10,sides:2,rest:15},{reps:10,sides:2,rest:15}], desc:'Nur mit den Zehen'}
+};
+const STAGE_LABELS=['1 · Einstieg (Wo. 1–2)','2 · Stabilisierung (Wo. 3–4)','3 · Intensivierung (Wo. 5–6)','4 · Konsolidierung (Wo. 7–8)'];
+
+let timer={
+  mode:'countdown',      // countdown | stopwatch | intervals
+  target:30,             // seconds to count down from (or current sw time)
+  running:false,
+  handle:null,
+  armed:false,           // true when current settings came from an exercise
+  currentName:'',
+  currentKind:'manual',  // 'manual' | 'exercise' | 'foot' | 'rest'
+  currentStage:1,        // 1..4
+  currentSide:'both',    // 'L' | 'R' | 'both'
+  intervalsDone:0,
+  restActive:false,
+  sideIndex:0            // for sides=2: 0 -> L, 1 -> R
+};
+
+/* --- helpers --- */
+function timerFmt(s){
+  s=Math.max(0,Math.round(s|0));
+  const m=Math.floor(s/60),sec=s%60;
+  return String(m).padStart(2,'0')+':'+String(sec).padStart(2,'0');
+}
+function timerPaint(){
+  const d=document.getElementById('timerDisplay');
+  if(!d) return;
+  d.textContent=timerFmt(timer.target);
+  d.classList.toggle('running',timer.running);
+  const bar=document.getElementById('timerBar');
+  if(bar){
+    if(timer.mode==='stopwatch'){
+      bar.style.width='100%';
+      bar.style.background='var(--orange)';
+    }else{
+      // store initial target for progress
+      if(!('_initTarget' in timer)||timer.target!==timer._lastInit){
+        timer._initTarget=timer.target>0?timer.target:30;
+        timer._lastInit=timer.target;
+      }
+      const pct=timer._initTarget?Math.max(0,Math.min(100,(timer._initTarget-timer.target)/timer._initTarget*100)):0;
+      bar.style.width=pct+'%';
+      bar.style.background=pct>=95?'var(--red)':'var(--green)';
+    }
+  }
+}
+function timerStop(){
+  if(timer.handle){clearInterval(timer.handle); timer.handle=null;}
+  timer.running=false;
+  timer.restActive=false;
+  const d=document.getElementById('timerDisplay');
+  if(d) d.classList.remove('running');
+  try{if(timer._wakeLock){timer._wakeLock.release(); timer._wakeLock=null;}}catch(_){}
+  _updateMini();
+}
+function timerBeep(){
+  try{
+    _unlockAudio();
+    const a=timer._ac||(timer._ac=new (window.AudioContext||window.webkitAudioContext)());
+    const o=a.createOscillator(),g=a.createGain();
+    o.type='sine';o.frequency.value=880;
+    o.connect(g);g.connect(a.destination);
+    g.gain.setValueAtTime(0,a.currentTime);
+    g.gain.linearRampToValueAtTime(.4,a.currentTime+.02);
+    g.gain.linearRampToValueAtTime(0,a.currentTime+.35);
+    o.start();o.stop(a.currentTime+.4);
+    setTimeout(()=>{
+      try{
+        const b=timer._ac||(timer._ac=new (window.AudioContext||window.webkitAudioContext)());
+        const o2=b.createOscillator(),g2=b.createGain();
+        o2.type='sine';o2.frequency.value=660;
+        o2.connect(g2);g2.connect(b.destination);
+        g2.gain.setValueAtTime(0,b.currentTime);
+        g2.gain.linearRampToValueAtTime(.35,b.currentTime+.02);
+        g2.gain.linearRampToValueAtTime(0,b.currentTime+.5);
+        o2.start();o2.stop(b.currentTime+.5);
+      }catch(_){}
+    },420);
+    try{navigator.vibrate&&navigator.vibrate(120);}catch(_){}
+  }catch(_){toast('Timer fertig');}
+}
+function timerSet(seconds, opts){
+  opts=opts||{};
+  timerStop();
+  timer.target=Math.max(1,Math.round(seconds));
+  timer._initTarget=timer.target;
+  timer._lastInit=timer.target;
+  timer.intervalsDone=0;
+  if(opts.name){timer.currentName=opts.name; document.getElementById('timerExercise').textContent=opts.name;}
+  if(opts.stage) timer.currentStage=opts.stage;
+  if(opts.side)  timer.currentSide=opts.side;
+  if(opts.kind)  timer.currentKind=opts.kind;
+  timer.armed=!!opts.armed;
+  refreshTimerMeta();
+  timerPaint();
+}
+function refreshTimerMeta(){
+  const stg=document.getElementById('timerStagePill');
+  const sub=document.getElementById('timerHint');
+  const pick=document.getElementById('timerSidePick');
+  const stgSel=document.getElementById('timerStageSel');
+  if(stgSel) stgSel.value=String(Math.max(0,Math.min(3,timer.currentStage-1)));
+  if(!stg||!sub) return;
+
+  let sidesTxt='1 Seite';
+  if(timer.currentSide==='L') sidesTxt='Seite L';
+  else if(timer.currentSide==='R') sidesTxt='Seite R';
+  else if(timer.currentSide==='both') sidesTxt='beide Seiten';
+
+  const stageLabel=STAGE_LABELS[Math.max(0,Math.min(3,timer.currentStage-1))]||'';
+  let unit='Sek.';
+  let valueStr=timerFmt(timer.target);
+
+  // try to enrich with exercise data
+  const data=lookupExerciseData(timer.currentName);
+  if(data){
+    const stg=data.stages?.[Math.max(0,Math.min(3,timer.currentStage-1))];
+    if(stg){
+      if(data.kind==='time'){
+        unit='Sek.'; valueStr=stg.sec+' s';
+      }else{
+        unit='Wdh.'; valueStr=(stg.reps||'?')+' ×';
+      }
+      if(stg.sides===2 && timer.currentSide==='both') sidesTxt='L → R (2 Seiten)';
+    }
+  }
+
+  stg.textContent='Stufe '+timer.currentStage+' · '+valueStr+' · '+sidesTxt;
+  let hint='Stufe '+timer.currentStage+' = '+stageLabel.replace(/^\d+\s*·\s*/,'')+' · ';
+  if(data){
+    hint+='<b>'+data.kind==='time'?'Halte-Zeit':'Wiederholungen'+'</b> · Pause nach Satz ≈ '+(data.stages?.[Math.max(0,Math.min(3,timer.currentStage-1))]?.rest||'–')+' s';
+    if(data.desc) hint+=' · '+esc(data.desc);
+  }else{
+    hint+='<b>manuelle Zeit</b>';
+  }
+  sub.innerHTML=hint;
+
+  // side picker visibility
+  if(pick){
+    const show=data && (data.stages?.[Math.max(0,Math.min(3,timer.currentStage-1))]?.sides||0)>1;
+    pick.hidden=!show;
+    pick.querySelectorAll('[data-side]').forEach(b=>b.classList.toggle('active',b.dataset.side===timer.currentSide));
+  }
+
+  // interval row visibility
+  const ir=document.getElementById('timerIntervalsRow');
+  if(ir) ir.hidden=timer.mode!=='intervals';
+
+  // highlight active preset button if it matches
+  document.querySelectorAll('[data-preset]').forEach(b=>{
+    const p=b.dataset.preset;
+    let match=false;
+    if(p==='rest') match=timer.currentKind==='rest';
+    else if(timer.mode==='countdown') match=Number(p)===timer.target;
+    b.classList.toggle('active',match);
+  });
+}
+function lookupExerciseData(name){
+  if(!name) return null;
+  if(EX_TIMES[name]) return EX_TIMES[name];
+  if(FOOT_TIMES[name]) return FOOT_TIMES[name];
+  return null;
+}
+function pickStageFromWeek(){
+  const w=Math.max(1,Math.min(12,week()));
+  // weeks 1-2: stage 1; 3-4: 2; 5-6: 3; 7+: 4
+  return Math.min(4,Math.ceil(w/2));
+}
+function applyExerciseToTimer(name, opts){
+  opts=opts||{};
+  const data=lookupExerciseData(name);
+  if(!data){
+    // fallback: no smart data -> keep current duration but update label
+    timer.currentName=name||'Übung';
+    document.getElementById('timerExercise').textContent=timer.currentName;
+    timer.currentKind='manual';
+    refreshTimerMeta();
+    return;
+  }
+  const stage=opts.stage||pickStageFromWeek();
+  const stg=data.stages[Math.max(0,Math.min(3,stage-1))];
+  let secs;
+  if(data.kind==='time'){
+    secs=stg.sec;
+  }else{
+    // reps-based: estimate ~3 s per rep (typical tempo)
+    secs=(stg.reps||8)*3;
+  }
+  let side=opts.side||'both';
+  if((stg.sides||1)>1) side=timer.currentSide==='L'||timer.currentSide==='R'?timer.currentSide:'both';
+  timerSet(secs,{
+    name, stage, side, kind:data.kind,
+    armed:true
+  });
+  toast((data.kind==='time'?'Halte-Zeit':'Wdh.-Schätzung')+': '+secs+' s · Stufe '+stage);
+  // pre-fill the training rep field too (nice side-effect)
+  const trReps=document.getElementById('trReps');
+  if(trReps && data.kind==='reps') trReps.value=stg.reps;
+}
+function parseNoteSeconds(note){
+  // parse strings like "2×60 s pro Fuß", "2 Min pro Fuß", "1 Min", "30 Sek."
+  if(!note) return null;
+  const s=String(note);
+  let m=s.match(/(\d+)\s*Min/i);
+  if(m) return parseInt(m[1],10)*60;
+  m=s.match(/(\d+)\s*Sek/i);
+  if(m) return parseInt(m[1],10);
+  m=s.match(/(\d+)\s*[Ss]/);
+  if(m) return parseInt(m[1],10);
+  return null;
+}
+function parseFootNote(note){
+  // returns {seconds, sides} if detectable
+  const sec=parseNoteSeconds(note);
+  if(!sec) return null;
+  // crude side detection
+  let sides=1;
+  if(/pro\s*Fuß/i.test(note)) sides=1; // foot-by-foot
+  else if(/pro\s*Seite/i.test(note)) sides=2;
+  else if(/linken?\s*Fuß/i.test(note)) sides=1;
+  return {sec, sides};
+}
+
+/* --- main controls --- */
+/* ===== iOS Safari / background-tab safe timer =====
+   Uses Date.now() timestamps instead of plain setInterval decrements so
+   the timer stays accurate even when:
+     * the screen locks,
+     * the user switches to another app (background throttling),
+     * iOS Safari suspends the page.
+   Also drives Wake Lock API (so the screen does NOT turn off mid-set)
+   and the docked mini-timer bar in the thumb zone.
+*/
+function _unlockAudio(){
+  try{
+    const ctx=timer._ac||(timer._ac=new (window.AudioContext||window.webkitAudioContext)());
+    if(ctx.state==='suspended') ctx.resume();
+  }catch(_){}
+}
+async function _acquireWakeLock(){
+  try{
+    if(!('wakeLock' in navigator)) return;
+    if(timer._wakeLock){try{timer._wakeLock.release();}catch(_){}}
+    timer._wakeLock=await navigator.wakeLock.request('screen');
+  }catch(_){}
+}
+document.addEventListener('visibilitychange',()=>{
+  if(document.visibilityState==='visible' && timer.running){ _acquireWakeLock(); }
+});
+function _tick(){
+  if(!timer.running) return;
+  const now=Date.now();
+  const elapsed=Math.floor((now-timer._startedAt)/1000);
+  if(timer.mode==='stopwatch'){
+    timer.target=timer._baseValue+elapsed;
+  }else if(timer.mode==='intervals'){
+    let remaining=timer._baseValue-elapsed;
+    while(remaining<=0){
+      timerBeep();
+      if(timer.restActive){
+        timer.restActive=false;
+        const total=Math.max(1,+document.getElementById('timerIntervals').value||1);
+        timer.intervalsDone+=1;
+        if(timer.intervalsDone>=total){
+          timerStop(); timerPaint(); _updateMini(); toast('Alle Sätze fertig ✓'); _flashMini('alert'); return;
+        }
+        const work=Math.max(1,timer._initWork||timer._initTarget||30);
+        timer._baseValue=work;
+        timer._startedAt+=(timer._restLast||0)*1000 + work*1000;
+        remaining=work;
+        toast('Satz '+(timer.intervalsDone+1)+'/'+total);
+      }else{
+        const total=Math.max(1,+document.getElementById('timerIntervals').value||1);
+        const rest=Math.max(0,+document.getElementById('timerRest').value||0);
+        if(rest>0){
+          timer._restLast=rest;
+          timer._baseValue=rest;
+          timer._startedAt+=timer._initWork*1000;
+          timer.restActive=true;
+          toast('Pause '+rest+' s – Satz '+(timer.intervalsDone+1)+'/'+total);
+          _flashMini('rest');
+          remaining=rest;
+        }else{
+          timer.intervalsDone+=1;
+          if(timer.intervalsDone>=total){
+            timerStop(); timerPaint(); _updateMini(); toast('Alle Sätze fertig ✓'); _flashMini('alert'); return;
+          }
+          timer._baseValue=Math.max(1,timer._initWork||timer._initTarget||30);
+          timer._startedAt+=timer._baseValue*1000;
+          remaining=timer._baseValue;
+          toast('Satz '+(timer.intervalsDone+1)+'/'+total);
+        }
+      }
+    }
+    timer.target=remaining;
+  }else{
+    const remaining=timer._baseValue-elapsed;
+    if(remaining<=0){
+      timer.target=0; timerStop(); timerBeep(); timerPaint(); _updateMini(); _flashMini('alert');
+      try{navigator.vibrate&&navigator.vibrate([60,50,60]);}catch(_){}
+      toast('Timer fertig · '+timer.currentName); return;
+    }
+    timer.target=remaining;
+  }
+  timerPaint();
+  _updateMini();
+}
+function _startLoop(){
+  if(timer.handle) clearInterval(timer.handle);
+  // 250ms tick keeps the display snappy without overloading backgrounded iOS
+  timer.handle=setInterval(_tick,250);
+}
+document.getElementById('timerStart').onclick=async ()=>{
+  if(timer.running) return;
+  _unlockAudio(); // iOS requires a user gesture before sound can play
+  await _acquireWakeLock();
+  timer.running=true;
+  timer._startedAt=Date.now();
+  timer._baseValue=timer.mode==='stopwatch'?0:Math.max(0,timer.target|0);
+  timer._initWork=timer._baseValue;
+  timer._restLast=0;
+  document.getElementById('timerDisplay').classList.add('running');
+  _showMini(true);
+  _updateMini();
+  _startLoop();
+};
+document.getElementById('timerPause').onclick=()=>{timerStop();timerPaint();};
+document.getElementById('timerReset').onclick=()=>{
+  timerStop();
+  if(timer.mode==='stopwatch'){timer.target=0;}
+  else if(timer.mode==='intervals'){
+    timer.target=timer._initTarget||30;
+    timer.intervalsDone=0;
+    timer.restActive=false;
+  }else{
+    // keep last preset; if came from exercise, reapply
+    if(timer.armed && timer.currentName && lookupExerciseData(timer.currentName)){
+      applyExerciseToTimer(timer.currentName,{stage:timer.currentStage, side:timer.currentSide});
+      return;
+    }
+    timer.target=30;
+  }
+  timerPaint();
+};
+document.querySelectorAll('[data-timer-mode]').forEach(b=>b.onclick=()=>{
+  timerStop();
+  timer.mode=b.dataset.timerMode;
+  document.querySelectorAll('[data-timer-mode]').forEach(x=>x.classList.toggle('active',x===b));
+  if(timer.mode==='stopwatch'){
+    timer.target=0;
+  }else if(timer.mode==='intervals'){
+    timer.target=timer._initTarget||30;
+    timer.intervalsDone=0;
+    timer.restActive=false;
+    if(lookupExerciseData(timer.currentName)){
+      const data=lookupExerciseData(timer.currentName);
+      const stg=data.stages?.[Math.max(0,Math.min(3,timer.currentStage-1))];
+      if(stg){
+        if(data.kind==='time') timer.target=stg.sec;
+        else timer.target=(stg.reps||8)*3;
+        timer._initTarget=timer.target;
+      }
+      const ri=document.getElementById('timerRest');
+      if(ri) ri.value=stg?.rest||20;
+    }
+  }else{
+    // countdown: if armed exercise, reapply
+    if(timer.armed && timer.currentName && lookupExerciseData(timer.currentName)){
+      applyExerciseToTimer(timer.currentName,{stage:timer.currentStage, side:timer.currentSide});
+      return;
+    }
+    timer.target=timer._initTarget||30;
+  }
+  refreshTimerMeta();
+  timerPaint();
+});
+
+/* Preset buttons */
+document.querySelectorAll('[data-preset]').forEach(b=>b.onclick=()=>{
+  const v=b.dataset.preset;
+  timerStop();
+  if(v==='rest'){
+    timer.currentKind='rest';
+    timer.armed=false;
+    timer.target=timer.currentKind==='rest'?(timer._restSec||30):30;
+    const restInput=document.getElementById('timerRest');
+    const rs=restInput?+restInput.value||30:30;
+    timer.target=rs;
+    timer._restSec=rs;
+    document.getElementById('timerExercise').textContent='Pause';
+  }else{
+    timer.target=Number(v);
+    timer._initTarget=timer.target;
+    if(timer.currentKind==='rest') timer.currentKind='manual';
+    timer.armed=false;
+  }
+  refreshTimerMeta();
+  timerPaint();
+});
+
+/* +/- buttons */
+document.querySelectorAll('[data-adj]').forEach(b=>b.onclick=()=>{
+  const v=Number(b.dataset.adj);
+  if(timer.mode==='stopwatch') return;
+  timer.target=Math.max(1,timer.target+v);
+  timer._initTarget=timer.target;
+  timer.armed=false;
+  timerPaint();
+  refreshTimerMeta();
+});
+
+/* Stage picker */
+document.getElementById('timerStageSel').onchange=e=>{
+  const s=+e.target.value+1;
+  timer.currentStage=s;
+  if(timer.armed && timer.currentName && lookupExerciseData(timer.currentName)){
+    applyExerciseToTimer(timer.currentName,{stage:s, side:timer.currentSide});
+  }else{
+    refreshTimerMeta();
+  }
+};
+
+/* Side picker */
+document.querySelectorAll('[data-side]').forEach(b=>b.onclick=()=>{
+  if(!document.getElementById('timerSidePick').contains(b)) return;
+  timer.currentSide=b.dataset.side;
+  if(timer.armed && timer.currentName && lookupExerciseData(timer.currentName)){
+    applyExerciseToTimer(timer.currentName,{stage:timer.currentStage, side:timer.currentSide});
+  }else{
+    refreshTimerMeta();
+  }
+});
+
+/* Auto button: reapply exercise duration */
+document.getElementById('timerAuto').onclick=()=>{
+  const sel=document.getElementById('trExercise');
+  if(!sel) return;
+  const name=(allExercises()[+sel.value]||[])[0];
+  if(!name){toast('Bitte Übung wählen'); return;}
+  applyExerciseToTimer(name,{stage:timer.currentStage, side:timer.currentSide});
+};
+
+/* Test beep */
+document.getElementById('timerBeep').onclick=()=>timerBeep();
+
+/* Exercise dropdown change -> auto apply to timer */
+document.getElementById('trExercise').onchange=e=>{
+  const name=(allExercises()[+e.target.value]||[])[0]||'Übung';
+  applyExerciseToTimer(name,{stage:pickStageFromWeek()});
+  refreshExerciseInfo();
+};
+
+/* Foot exercise form: parse note to preset timer */
+document.getElementById('footNote').addEventListener('input',e=>{
+  const v=e.target.value||'';
+  const parsed=parseFootNote(v);
+  if(!parsed) return;
+  // try to find in FOOT_TIMES by matching name? Only if footName filled
+  const fname=document.getElementById('footName').value.trim();
+  if(FOOT_TIMES[fname]){
+    applyExerciseToTimer(fname,{stage:pickStageFromWeek()});
+    toast('Timer geladen: '+fname+' · '+parsed.sec+' s');
+  }else if(parsed.sec){
+    timerSet(parsed.sec,{name:'Fußübung', kind:'foot', armed:false});
+  }
+});
+document.getElementById('footName').addEventListener('input',e=>{
+  const n=e.target.value.trim();
+  if(FOOT_TIMES[n]){
+    applyExerciseToTimer(n,{stage:pickStageFromWeek()});
+    toast('Timer geladen: '+n);
+  }
+});
+
+/* Training week change -> update stage */
+document.getElementById('trainWeek').addEventListener('change',()=>{
+  timer.currentStage=pickStageFromWeek();
+  if(timer.armed && timer.currentName) refreshTimerMeta();
+});
+
+/* ===== Docked Mini-Timer (bottom safe-area bar, thumb-zone) ===== */
+function _ensureMini(){
+  if(document.getElementById('timerMini')) return;
+  const wrap=document.createElement('div');
+  wrap.id='timerMini';
+  wrap.setAttribute('role','region');
+  wrap.setAttribute('aria-label','Timer-Steuerung');
+  wrap.innerHTML='<div class="mini-time" id="miniTime">00:00</div><div class="mini-info"><b id="miniName">Timer</b><small id="miniMeta">&nbsp;</small></div><div class="mini-act"><button class="btn" id="miniToggle" aria-label="Start / Pause">▶</button><button class="btn soft" id="miniReset" aria-label="Zurücksetzen">↺</button><button class="btn soft" id="miniClose" aria-label="Timer schließen">✕</button></div>';
+  document.body.appendChild(wrap);
+  document.getElementById('miniToggle').addEventListener('click',()=>{
+    if(timer.running){
+      timerStop(); timerPaint();
+    }else{
+      if(timer.target<=0 && timer.mode!=='stopwatch'){
+        if(timer.armed && timer.currentName){
+          applyExerciseToTimer(timer.currentName,{stage:timer.currentStage, side:timer.currentSide});
+        }else{
+          timer.target=timer._initTarget||30;
+          timer._baseValue=timer.target;
+          timerPaint();
+        }
+      }
+      document.getElementById('timerStart').click();
+    }
+  });
+  document.getElementById('miniReset').addEventListener('click',()=>{
+    document.getElementById('timerReset').click();
+    _updateMini();
+  });
+  document.getElementById('miniClose').addEventListener('click',()=>{
+    timerStop();
+    timer.target=timer._initTarget||30;
+    timer._baseValue=timer.target;
+    timerPaint();
+    _showMini(false);
+  });
+}
+function _showMini(on){
+  _ensureMini();
+  const m=document.getElementById('timerMini');
+  if(on){
+    m.classList.add('show');
+    document.body.classList.add('hasMiniTimer');
+  }else{
+    m.classList.remove('show');
+    document.body.classList.remove('hasMiniTimer');
+  }
+}
+function _flashMini(kind){
+  _ensureMini();
+  const m=document.getElementById('timerMini');
+  m.classList.remove('alert','rest');
+  void m.offsetWidth;
+  m.classList.add(kind||'alert');
+  setTimeout(()=>m.classList.remove('alert','rest'),3600);
+}
+function _updateMini(){
+  _ensureMini();
+  if(!timer.running && timer.target<=0 && timer.mode!=='stopwatch'){
+    return;
+  }
+  _showMini(true);
+  const t=document.getElementById('miniTime');
+  const n=document.getElementById('miniName');
+  const meta=document.getElementById('miniMeta');
+  const tg=document.getElementById('miniToggle');
+  t.textContent=timerFmt(timer.target);
+  n.textContent=timer.currentName||'Timer';
+  const mlabel=timer.mode==='stopwatch'?'Stoppuhr':timer.mode==='intervals'?(timer.restActive?'Pause':'Satz '+(timer.intervalsDone+1)):'Countdown';
+  meta.textContent=(timer.currentStage?'Stufe '+timer.currentStage+' · ':'')+mlabel;
+  tg.textContent=timer.running?'⏸':'▶';
+}
+/* Unlock audio context on the very first user gesture (iOS Safari requirement). */
+['touchstart','touchend','click','keydown'].forEach(ev=>{
+  document.addEventListener(ev,function _unlockOnce(){
+    _unlockAudio();
+    document.removeEventListener(ev,_unlockOnce,true);
+  },true);
+});
+
+/* Initial paint */
+refreshTimerMeta();
+timerPaint();
+_ensureMini();
+
 
 /* ===== Übungs-Details & Progression (v3) ===== */
 const EX_DETAILS={
@@ -504,17 +1275,49 @@ function renderExercisesRef(){
     if(!groups[cat]) return;
     html+=`<div class="ref-cat-title">${exEsc(cat)}</div><div class="ex-grid">`;
     groups[cat].forEach(name=>{
-      html+=`<div class="ex-card"><h3>${exEsc(name)}</h3><div class="cat">${exEsc(cat)}</div><details><summary>Details, Fehler &amp; Progression</summary><div class="body">${renderExerciseInfo(name)}</div></details></div>`;
+      const info=EX_TIMES[name];
+      const stage=info?info.stages[1]:null;
+      const hint=info?(info.kind==='time'?(stage.sec+' s'):((stage.reps||8)+' ×')):'–';
+      html+=`<div class="ex-card"><h3>${exEsc(name)}</h3><div class="cat">${exEsc(cat)}</div><button type="button" class="ex-timer-btn" data-load-ex="${exEsc(name)}" title="Timer für diese Übung laden">⏱ Timer: <b>${exEsc(hint)}</b></button><details><summary>Details, Fehler &amp; Progression</summary><div class="body">${renderExerciseInfo(name)}</div></details></div>`;
     });
     html+=`</div>`;
   });
   // Fußübungen
   html+=`<div class="ref-cat-title">Fußübungen (links / Einlage)</div><div class="ex-grid">`;
   Object.keys(FOOT_DETAILS).forEach(name=>{
-    html+=`<div class="ex-card"><h3>${exEsc(name)}</h3><div class="cat">Fuß</div><details><summary>Details, Fehler &amp; Progression</summary><div class="body">${renderFootInfo(name)}</div></details></div>`;
+    const info=FOOT_TIMES[name];
+    const stage=info?info.stages[1]:null;
+    const hint=info?(info.kind==='time'?(stage.sec+' s'):((stage.reps||8)+' ×')):'–';
+    html+=`<div class="ex-card"><h3>${exEsc(name)}</h3><div class="cat">Fuß</div><button type="button" class="ex-timer-btn" data-load-ex="${exEsc(name)}" title="Timer für diese Übung laden">⏱ Timer: <b>${exEsc(hint)}</b></button><details><summary>Details, Fehler &amp; Progression</summary><div class="body">${renderFootInfo(name)}</div></details></div>`;
   });
   html+=`</div>`;
   document.getElementById('exercisesRef').innerHTML = html;
+  // Delegated handler for "load into timer"
+  document.getElementById('exercisesRef').querySelectorAll('[data-load-ex]').forEach(btn=>{
+    btn.onclick=()=>{
+      const name=btn.dataset.loadEx;
+      const stage=pickStageFromWeek();
+      applyExerciseToTimer(name,{stage});
+      // highlight briefly
+      document.querySelectorAll('[data-load-ex]').forEach(b=>b.removeAttribute('data-armed'));
+      btn.setAttribute('data-armed','true');
+      // open training tab
+      setView('training');
+      // sync dropdown
+      const sel=document.getElementById('trExercise');
+      if(sel){
+        const idx=allExercises().findIndex(x=>x[0]===name);
+        if(idx>=0) sel.value=String(idx);
+      }
+      // open info panel
+      const ip=document.getElementById('exInfoPanel');
+      if(ip) refreshExerciseInfo();
+      toast('⏱ Timer geladen: '+name);
+      // smooth scroll to timer card
+      const tc=document.querySelector('.card.timer');
+      if(tc && tc.scrollIntoView) tc.scrollIntoView({behavior:'smooth',block:'center'});
+    };
+  });
 }
 
 /* Inline-Panel unter dem Übungs-Dropdown im Training-Tab */
@@ -534,7 +1337,7 @@ document.getElementById('exInfoBtn').onclick=()=>{
   // toggle
   if(t.innerHTML){ t.innerHTML=''; return; }
 };
-/* Sel-Change Hook in renderTraining */
+/* Sel-Change Hook in renderTraining (preserves original wiring, also refreshes mini) */
 const _origRenderTraining = renderTraining;
 renderTraining = function(){
   _origRenderTraining();
@@ -544,6 +1347,7 @@ renderTraining = function(){
     sel._wiredInfo=true;
     sel.addEventListener('change', refreshExerciseInfo);
   }
+  try{_updateMini();}catch(_){}
 };
 renderExercisesRef();
 
@@ -595,4 +1399,7 @@ try{
   }
 }catch(e){}
 </script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 </body></html>
