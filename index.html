@@ -12,7 +12,87 @@
 <link rel="apple-touch-icon" href="./icons/apple-touch-icon-180.png">
 <title>Andreas · Körperkompass v3</title>
 <style>
-:root{--bg:#f4f1e9;--panel:#fffdf8;--ink:#17231f;--muted:#708078;--line:#dfe5dc;--lime:#d7f36b;--green:#21745c;--mint:#bfe8cd;--orange:#e89b5b;--red:#c45d57;--shadow:0 18px 50px #18372a12;color-scheme:light}*{box-sizing:border-box}html[data-theme=dark]{--bg:#111b18;--panel:#1a2923;--ink:#eff5eb;--muted:#9daf9f;--line:#35463d;--green:#8dd6ab;--shadow:0 18px 50px #0005;color-scheme:dark}body{margin:0;background:radial-gradient(circle at 85% 0,#d7f36b33,transparent 32rem),var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.45}.app{max-width:1240px;margin:auto;padding:20px 18px 24px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.brand{font-family:Georgia,serif;font-size:1.45rem;font-weight:bold;letter-spacing:-.05em}.brand em{font-style:normal;color:var(--green)}.actions{display:flex;gap:8px}.icon{width:40px;height:40px;border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--ink);font-size:1.1rem}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:14px}.hero-main{background:var(--lime);color:#152119;border-radius:27px;padding:28px 30px;min-height:190px;position:relative;overflow:hidden}.hero-main:after{content:'';position:absolute;width:230px;height:230px;border:27px solid #fff6;border-radius:50%;right:-40px;bottom:-145px}.eyebrow{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--green)}h1{font:700 clamp(2.3rem,6vw,4.8rem)/.9 Georgia,serif;letter-spacing:-.08em;margin:12px 0}.hero-main p{max-width:420px;margin:0;font-size:1.03rem}.score{background:var(--panel);border:1px solid var(--line);border-radius:27px;padding:25px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}.score strong{font:700 3.4rem Georgia,serif}.bar{height:9px;background:var(--line);border-radius:10px;overflow:hidden;margin:12px 0}.bar i{display:block;height:100%;background:var(--green);border-radius:10px}.section-head{display:flex;justify-content:space-between;align-items:end;margin:30px 0 13px}.section-head h2{margin:0;font:700 1.65rem Georgia,serif;letter-spacing:-.04em}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:19px;padding:17px;box-shadow:var(--shadow)}.stat small,.label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.stat b{display:block;font:700 1.65rem Georgia,serif;margin:13px 0 2px}.tabs{display:flex;gap:5px;overflow:auto;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:18px;margin:24px 0}.tabs button{flex:1;white-space:nowrap;padding:11px 13px;border:0;border-radius:13px;background:transparent;color:var(--muted);font-weight:700}.tabs button.active{background:var(--green);color:#fff}.view{display:none}.view.active{display:block}.toolbar,.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.btn,.pill{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:10px 14px;font-weight:700}.btn.primary{background:var(--green);border-color:var(--green);color:#fff}.btn.soft{background:var(--lime);color:#152119;border-color:var(--lime)}.btn.danger{color:var(--red)}.btn.small{padding:6px 10px;font-size:.78rem}.fields{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}.field label{font-size:.72rem;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.06em}input,select,textarea{font:inherit;width:100%;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:10px}textarea{min-height:82px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal h3,.exercise h3,.supp h3{margin:0 0 5px;font:700 1.2rem Georgia,serif}.food{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:7px 0;font-size:.9rem}.food span:last-child{color:var(--muted);white-space:nowrap;margin-left:8px}.check{display:flex;gap:9px;align-items:center}.check input{width:19px;height:19px;accent-color:var(--green)}.done{opacity:.62}.days{display:flex;gap:6px;overflow:auto;margin:12px 0}.days button{min-width:76px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:9px;border-radius:12px}.days button.active{background:var(--green);color:#fff}.levels{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin:10px 0}.levels div{background:var(--bg);padding:7px;border-radius:9px;font-size:.78rem;text-align:center}.levels b{display:block;font-size:.62rem;color:var(--muted)}.table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);white-space:nowrap}th{font-size:.7rem;text-transform:uppercase;color:var(--muted)}.chart{width:100%;height:260px;background:var(--bg);border-radius:14px;margin-top:12px}.heat{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}.heat div{padding:10px 5px;text-align:center;border-radius:10px;background:var(--bg);font-size:.75rem}.heat i{display:block;width:17px;height:17px;margin:5px auto;border-radius:50%;background:var(--line)}.heat i.on{background:var(--green)}.notice{padding:12px 14px;background:#fff1d8;border-left:4px solid var(--orange);color:#634a2c;border-radius:8px;margin:12px 0}.darknotice{background:color-mix(in srgb,var(--green) 14%,transparent);padding:13px;border-radius:12px}.review{border-left:4px solid var(--lime)}.timer{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-top:14px}.timer-display{font:700 2.8rem Georgia,serif;letter-spacing:.04em}.timer-mode{display:flex;gap:6px}.timer-mode button.active{background:var(--green);color:#fff}.chart-select{max-width:260px}.checklist{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}.checklist .card{box-shadow:none;padding:12px}.empty{padding:20px;text-align:center;color:var(--muted)}@media(max-width:780px){.checklist{grid-template-columns:repeat(2,1fr)}}.toast{position:fixed;z-index:9;top:16px;left:50%;transform:translate(-50%,-90px);background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:99px;transition:.25s}.toast.show{transform:translate(-50%,0)}@media(max-width:780px){.app{padding:14px 12px 18px}.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.fields{grid-template-columns:repeat(2,1fr)}.cards,.meal-grid{grid-template-columns:1fr}.levels{font-size:.7rem}}
+:root{--bg:#f4f1e9;--panel:#fffdf8;--ink:#17231f;--muted:#708078;--line:#dfe5dc;--lime:#d7f36b;--green:#21745c;--mint:#bfe8cd;--orange:#e89b5b;--red:#c45d57;--shadow:0 18px 50px #18372a12;color-scheme:light}*{box-sizing:border-box}html[data-theme=dark]{--bg:#111b18;--panel:#1a2923;--ink:#eff5eb;--muted:#9daf9f;--line:#35463d;--green:#8dd6ab;--shadow:0 18px 50px #0005;color-scheme:dark}body{margin:0;background:radial-gradient(circle at 85% 0,#d7f36b33,transparent 32rem),var(--bg);color:var(--ink);font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;line-height:1.45}.app{max-width:1240px;margin:auto;padding:20px 18px 24px}.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px}.brand{font-family:Georgia,serif;font-size:1.45rem;font-weight:bold;letter-spacing:-.05em}.brand em{font-style:normal;color:var(--green)}.actions{display:flex;gap:8px}.icon{width:40px;height:40px;border-radius:50%;background:var(--panel);border:1px solid var(--line);color:var(--ink);font-size:1.1rem}.hero{display:grid;grid-template-columns:1.25fr .75fr;gap:14px}.hero-main{background:var(--lime);color:#152119;border-radius:27px;padding:28px 30px;min-height:190px;position:relative;overflow:hidden}.hero-main:after{content:'';position:absolute;width:230px;height:230px;border:27px solid #fff6;border-radius:50%;right:-40px;bottom:-145px}.eyebrow{font-size:.7rem;font-weight:800;text-transform:uppercase;letter-spacing:.14em;color:var(--green)}h1{font:700 clamp(2.3rem,6vw,4.8rem)/.9 Georgia,serif;letter-spacing:-.08em;margin:12px 0}.hero-main p{max-width:420px;margin:0;font-size:1.03rem}.score{background:var(--panel);border:1px solid var(--line);border-radius:27px;padding:25px;box-shadow:var(--shadow);display:flex;flex-direction:column;justify-content:space-between}.score strong{font:700 3.4rem Georgia,serif}.bar{height:9px;background:var(--line);border-radius:10px;overflow:hidden;margin:12px 0}.bar i{display:block;height:100%;background:var(--green);border-radius:10px}.section-head{display:flex;justify-content:space-between;align-items:end;margin:30px 0 13px}.section-head h2{margin:0;font:700 1.65rem Georgia,serif;letter-spacing:-.04em}.muted{color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.stat,.card{background:var(--panel);border:1px solid var(--line);border-radius:19px;padding:17px;box-shadow:var(--shadow)}.stat small,.label{font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.stat b{display:block;font:700 1.65rem Georgia,serif;margin:13px 0 2px}.tabs{display:flex;gap:5px;overflow:auto;padding:4px;background:var(--panel);border:1px solid var(--line);border-radius:18px;margin:24px 0}.tabs button{flex:1;white-space:nowrap;padding:11px 13px;border:0;border-radius:13px;background:transparent;color:var(--muted);font-weight:700}.tabs button.active{background:var(--green);color:#fff}.view{display:none}.view.active{display:block}.toolbar,.row{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.btn,.pill{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:999px;padding:10px 14px;font-weight:700}.btn.primary{background:var(--green);border-color:var(--green);color:#fff}.btn.soft{background:var(--lime);color:#152119;border-color:var(--lime)}.btn.danger{color:var(--red)}.btn.small{padding:6px 10px;font-size:.78rem}.fields{display:grid;grid-template-columns:repeat(4,1fr);gap:11px}.field{display:flex;flex-direction:column;gap:5px}.field.full{grid-column:1/-1}.field label{font-size:.72rem;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.06em}input,select,textarea{font:inherit;width:100%;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:10px}textarea{min-height:82px}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.meal h3,.exercise h3,.supp h3{margin:0 0 5px;font:700 1.2rem Georgia,serif}.food{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:7px 0;font-size:.9rem}.food span:last-child{color:var(--muted);white-space:nowrap;margin-left:8px}.check{display:flex;gap:9px;align-items:center}.check input{width:19px;height:19px;accent-color:var(--green)}.done{opacity:.62}.days{display:flex;gap:6px;overflow:auto;margin:12px 0}.days button{min-width:76px;border:1px solid var(--line);background:var(--panel);color:var(--ink);padding:9px;border-radius:12px}.days button.active{background:var(--green);color:#fff}.levels{display:grid;grid-template-columns:repeat(4,1fr);gap:5px;margin:10px 0}.levels div{background:var(--bg);padding:7px;border-radius:9px;font-size:.78rem;text-align:center}.levels b{display:block;font-size:.62rem;color:var(--muted)}.table{overflow:auto}table{width:100%;border-collapse:collapse;font-size:.9rem}th,td{text-align:left;padding:10px;border-bottom:1px solid var(--line);white-space:nowrap}th{font-size:.7rem;text-transform:uppercase;color:var(--muted)}.chart{width:100%;height:260px;background:var(--bg);border-radius:14px;margin-top:12px}.heat{display:grid;grid-template-columns:repeat(7,1fr);gap:7px}.heat div{padding:10px 5px;text-align:center;border-radius:10px;background:var(--bg);font-size:.75rem}.heat i{display:block;width:17px;height:17px;margin:5px auto;border-radius:50%;background:var(--line)}.heat i.on{background:var(--green)}.notice{padding:12px 14px;background:#fff1d8;border-left:4px solid var(--orange);color:#634a2c;border-radius:8px;margin:12px 0}.darknotice{background:color-mix(in srgb,var(--green) 14%,transparent);padding:13px;border-radius:12px}.review{border-left:4px solid var(--lime)}/* Timer legacy grid (kept for backwards compat, overridden below on mobile) */
+.timer{margin-top:14px}
+.timer-display{font:700 2.8rem Georgia,serif;letter-spacing:.04em}
+.timer-mode button.active{background:var(--green);color:#fff}
+
+/* ===== Smart Timer v2 — Mobile-first compact layout ===== */
+.timer-card{
+  display:flex;flex-direction:column;gap:12px;
+  padding:18px 16px 16px;border-radius:22px;
+}
+.timer-head{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.timer-head .label{margin:0;font-size:.78rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}
+.timer-head .ex-name{font:700 1.05rem Georgia,serif;color:var(--ink)}
+.timer-stage-pill{background:var(--bg);color:var(--ink);border:1px solid var(--line);font-weight:700;font-size:.72rem;padding:5px 10px;border-radius:999px;letter-spacing:.04em;white-space:nowrap}
+.timer-center{display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:6px 4px 2px}
+.timer-display{
+  font:700 clamp(3.4rem,16vw,5.6rem) Georgia,serif;
+  letter-spacing:.02em;line-height:1;
+  font-variant-numeric:tabular-nums;
+  color:var(--ink);
+  display:inline-block;
+  text-align:center;
+}
+.timer-display.running{color:var(--green)}
+.timer-progress{height:6px;background:var(--line);border-radius:99px;overflow:hidden;width:100%;max-width:320px;margin:10px auto 0}
+.timer-progress i{display:block;height:100%;background:var(--green);width:0%;transition:width .4s linear}
+.timer-sub{font-size:.82rem;margin:4px 0 0;color:var(--muted);line-height:1.35;text-align:center;max-width:36rem;margin-left:auto;margin-right:auto}
+.timer-sub b{color:var(--ink)}
+/* Segmented control (mode picker) */
+.timer-seg{
+  display:grid;grid-template-columns:repeat(3,1fr);gap:6px;
+  background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:4px;
+}
+.timer-seg .btn{
+  border:0;background:transparent;color:var(--muted);
+  padding:10px 6px;font-weight:700;font-size:.82rem;border-radius:10px;
+  min-height:40px;display:flex;align-items:center;justify-content:center;gap:4px;
+}
+.timer-seg .btn.active{background:var(--green);color:#fff;box-shadow:0 1px 0 #18372a22}
+.timer-seg .btn.timerAutoBtn{background:var(--lime);color:#152119;border-radius:10px;grid-column:1/-1;margin-top:2px}
+/* Preset chips — horizontal scroll on tiny screens, grid on larger */
+.timer-presets{
+  display:grid;grid-template-columns:repeat(4,1fr);gap:6px;
+}
+.timer-presets .btn{
+  min-height:40px;padding:8px 4px;font-size:.82rem;border-radius:12px;
+  font-variant-numeric:tabular-nums;font-weight:700;
+}
+.timer-presets .btn[data-preset].active{background:var(--lime);border-color:var(--lime);color:#152119}
+/* Adjust row: −30 −10 +10 +30 */
+.timer-adjust{display:grid;grid-template-columns:repeat(4,1fr);gap:6px}
+.timer-adjust .btn{min-height:40px;padding:8px 4px;font-size:.82rem;border-radius:12px}
+/* Settings block (Stufe, Seite, Intervall, Pause) — clearly bordered grid */
+.timer-settings{
+  display:grid;grid-template-columns:1fr 1fr;gap:8px;
+  background:var(--bg);border:1px solid var(--line);border-radius:14px;padding:10px;
+}
+.timer-setting{display:flex;flex-direction:column;gap:4px;min-width:0}
+.timer-setting label{font-size:.7rem;color:var(--muted);font-weight:800;text-transform:uppercase;letter-spacing:.06em}
+.timer-setting select,.timer-setting input{
+  font-size:16px;padding:9px 10px;border-radius:10px;min-height:40px;width:100%
+}
+.timer-side-pick{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:2px}
+.timer-side-pick .btn{min-height:38px;padding:6px 4px;font-size:.78rem;border-radius:10px;font-weight:700}
+.timer-side-pick .btn[data-side].active{background:var(--green);border-color:var(--green);color:#fff}
+.timer-side-wrap,.timer-stage-wrap{display:flex;flex-direction:column;gap:4px}
+.timer-intervals-row{display:grid;grid-template-columns:1fr 1fr;gap:8px;align-items:end}
+.timer-intervals-row .timer-setting input{max-width:100%}
+.timer-intervals-row .timer-hint{font-size:.7rem;color:var(--muted);grid-column:1/-1;margin-top:-2px}
+/* Main action buttons — big primary + reachable Pause/Reset */
+.timer-actions{
+  display:grid;grid-template-columns:2fr 1fr 1fr;gap:8px;margin-top:2px;
+}
+.timer-actions .btn{min-height:52px;font-size:1rem;padding:10px 14px}
+.timer-actions .btn#timerBeep{min-height:52px;padding:10px;font-size:1.1rem}
+/* Hide the secondary inline beep on mobile (still accessible via the dedicated slot) */
+@media(min-width:780px){
+  .timer-presets{grid-template-columns:repeat(9,1fr)}
+  .timer-adjust{grid-template-columns:repeat(4,auto)}
+  .timer-actions{grid-template-columns:2fr 1fr 1fr 1fr}
+}.chart-select{max-width:260px}.checklist{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:12px}.checklist .card{box-shadow:none;padding:12px}.empty{padding:20px;text-align:center;color:var(--muted)}@media(max-width:780px){.checklist{grid-template-columns:repeat(2,1fr)}}.toast{position:fixed;z-index:9;top:16px;left:50%;transform:translate(-50%,-90px);background:var(--ink);color:var(--bg);padding:11px 18px;border-radius:99px;transition:.25s}.toast.show{transform:translate(-50%,0)}@media(max-width:780px){.app{padding:14px 12px 18px}.hero{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr)}.fields{grid-template-columns:repeat(2,1fr)}.cards,.meal-grid{grid-template-columns:1fr}.levels{font-size:.7rem}}
 
 /* ===== Übungs-Info, Progression, Referenz-Tab (v3) ===== */
 .info-btn{
@@ -153,69 +233,84 @@ body.hasMiniTimer{padding-bottom:88px}
 <div class="tabs" id="tabs"><button class="active" data-view="dashboard">Dashboard</button><button data-view="profile">Profil</button><button data-view="training">Training</button><button data-view="nutrition">Ernährung</button><button data-view="supplements">Supps</button><button data-view="tracking">Tracking</button><button data-view="review">Review</button><button data-view="tips">Tipps</button><button data-view="exercises">Übungen</button></div>
 <section id="dashboard" class="view active"><div class="section-head"><h2>Überblick</h2><small class="muted" id="dateLabel"></small></div><div class="grid"><div class="stat"><span class="label">Gewicht</span><b id="dWeight">78 kg</b><small class="muted" id="dWeightSub">Start 78 · Ziel 74</small></div><div class="stat"><span class="label">Bauchumfang</span><b id="dWaist">101 cm</b><small class="muted" id="dWaistSub">Start 101 · Ziel 92</small></div><div class="stat"><span class="label">BMI</span><b id="dBmi">23,5</b><small class="muted" id="dBmiSub">Normalbereich</small></div><div class="stat"><span class="label">WHtR</span><b id="dWhtr">0,55</b><small class="muted">Ziel &lt; 0,50</small></div></div><div class="section-head"><h2>Programm</h2><div class="row"><span class="pill" id="weekLabel">Woche 1</span><button class="btn small" id="weekMinus">−</button><button class="btn small" id="weekPlus">+</button></div></div><div class="card"><div class="row" style="justify-content:space-between"><b id="progressText">0% Weg zum Ziel</b><span class="muted" id="streak">Streak: 0 Tage</span></div><div class="bar"><i id="goalbar"></i></div><div class="heat" id="heat"></div></div><div class="section-head"><h2>Verlauf</h2></div><div class="card"><svg id="trend" class="chart" viewBox="0 0 900 260" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Tages-Checkliste</h2><div class="row"><button class="btn small" id="checkPrev">‹</button><span class="pill" id="checkDate"></span><button class="btn small" id="checkNext">›</button></div></div><div id="checklist" class="checklist"></div></section>
 <section id="profile" class="view"><div class="section-head"><h2>Profil & Ziele</h2><span class="pill">automatisch berechnet</span></div><div class="card"><div class="fields" id="profileFields"></div><div class="row" style="margin-top:14px"><button class="btn primary" id="saveProfile">Profil speichern</button><span class="muted">Mifflin-St Jeor · Defizit wird aus Aktivität abgeleitet</span></div></div><div class="section-head"><h2>Deine Kennzahlen</h2></div><div class="grid"><div class="stat"><span class="label">Grundumsatz</span><b id="bmr">–</b></div><div class="stat"><span class="label">Gesamtumsatz</span><b id="tdee">–</b></div><div class="stat"><span class="label">Empfohlenes Defizit</span><b id="deficit">–</b></div><div class="stat"><span class="label">Avatar</span><b id="avatar">A</b></div></div></section>
-<section id="training" class="view"><div class="section-head"><h2>Training</h2><div class="row"><select id="trainWeek" style="width:auto"></select><button class="btn soft" id="copyWeek">Session letzte Woche kopieren</button></div></div><div </div><div class="card timer">
-  <div class="timer-top">
-    <div class="label">Übungs-Timer · <span id="timerExercise">Plank</span></div>
+<section id="training" class="view"><div class="section-head"><h2>Training</h2><div class="row"><select id="trainWeek" style="width:auto"></select><button class="btn soft" id="copyWeek">Session letzte Woche kopieren</button></div></div><div </div><div class="card timer timer-card">
+  <div class="timer-head">
+    <div>
+      <div class="label">Übungs-Timer</div>
+      <div class="ex-name"><span id="timerExercise">Plank</span></div>
+    </div>
     <span id="timerStagePill" class="timer-stage-pill">Stufe 2 · 30 s · 1 Seite</span>
   </div>
-  <div id="timerDisplay" class="timer-display">00:30</div>
-  <div class="timer-progress"><i id="timerBar"></i></div>
-  <div class="timer-sub" id="timerHint">Stufe 2 = Stabilisierung (Wochen 3–4) · Plan-Vorgabe · Pause nach Satz ≈ 30 s</div>
 
-  <div class="row timer-quick" role="group" aria-label="Schnellauswahl Dauer">
-    <button class="btn small" data-preset="10"  title="10 Sekunden">10s</button>
-    <button class="btn small" data-preset="20"  title="20 Sekunden">20s</button>
-    <button class="btn small" data-preset="30"  title="30 Sekunden">30s</button>
-    <button class="btn small" data-preset="45"  title="45 Sekunden">45s</button>
-    <button class="btn small" data-preset="60"  title="60 Sekunden">60s</button>
-    <button class="btn small" data-preset="90"  title="90 Sekunden">90s</button>
-    <button class="btn small" data-preset="120" title="2 Minuten">2 Min</button>
-    <button class="btn small" data-preset="300" title="5 Minuten">5 Min</button>
-    <button class="btn small" data-preset="rest" title="Pausen-Timer">⏸ Pause</button>
+  <div class="timer-center">
+    <div id="timerDisplay" class="timer-display">00:30</div>
+    <div class="timer-progress"><i id="timerBar"></i></div>
+    <div class="timer-sub" id="timerHint">Stufe 2 = Stabilisierung (Wochen 3–4) · Plan-Vorgabe · Pause nach Satz ≈ 30 s</div>
   </div>
 
-  <div class="timer-extra">
-    <button class="btn small" data-adj="-30" title="30 Sekunden weniger">−30s</button>
-    <button class="btn small" data-adj="-10" title="10 Sekunden weniger">−10s</button>
-    <button class="btn small" data-adj="+10" title="10 Sekunden mehr">+10s</button>
-    <button class="btn small" data-adj="+30" title="30 Sekunden mehr">+30s</button>
-    <span class="timer-stage-pick">
-      <label for="timerStageSel" class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Stufe</label>
+  <div class="timer-presets" role="group" aria-label="Schnellauswahl Dauer">
+    <button class="btn" data-preset="10"  title="10 Sekunden">10s</button>
+    <button class="btn" data-preset="20"  title="20 Sekunden">20s</button>
+    <button class="btn" data-preset="30"  title="30 Sekunden">30s</button>
+    <button class="btn" data-preset="45"  title="45 Sekunden">45s</button>
+    <button class="btn" data-preset="60"  title="60 Sekunden">60s</button>
+    <button class="btn" data-preset="90"  title="90 Sekunden">90s</button>
+    <button class="btn" data-preset="120" title="2 Minuten">2 Min</button>
+    <button class="btn" data-preset="300" title="5 Minuten">5 Min</button>
+    <button class="btn" data-preset="rest" title="Pausen-Timer" style="grid-column:1/-1;background:var(--bg);color:var(--ink)">⏸ Pause</button>
+  </div>
+
+  <div class="timer-adjust" role="group" aria-label="Zeit anpassen">
+    <button class="btn" data-adj="-30" title="30 Sekunden weniger">−30s</button>
+    <button class="btn" data-adj="-10" title="10 Sekunden weniger">−10s</button>
+    <button class="btn" data-adj="+10" title="10 Sekunden mehr">+10s</button>
+    <button class="btn" data-adj="+30" title="30 Sekunden mehr">+30s</button>
+  </div>
+
+  <div class="timer-settings">
+    <div class="timer-setting timer-stage-wrap">
+      <label for="timerStageSel">Stufe</label>
       <select id="timerStageSel" class="stage-select" title="Progressions-Stufe">
         <option value="0">1 · Einstieg (Wo. 1–2)</option>
         <option value="1">2 · Stabilisierung (Wo. 3–4)</option>
         <option value="2">3 · Intensivierung (Wo. 5–6)</option>
         <option value="3">4 · Konsolidierung (Wo. 7–8)</option>
       </select>
-    </span>
-    <span class="timer-side-pick" id="timerSidePick" hidden>
-      <label class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Seite</label>
-      <button class="btn small" data-side="L">Links</button>
-      <button class="btn small" data-side="R">Rechts</button>
-      <button class="btn small" data-side="both">Beide</button>
-    </span>
+    </div>
+    <div class="timer-setting timer-side-wrap">
+      <label>Seite</label>
+      <div class="timer-side-pick" id="timerSidePick" hidden>
+        <button class="btn" data-side="L">Links</button>
+        <button class="btn" data-side="R">Rechts</button>
+        <button class="btn" data-side="both">Beide</button>
+      </div>
+      <div id="timerSideHint" class="muted" style="font-size:.72rem">Auto</div>
+    </div>
   </div>
 
-  <div class="timer-mode" style="margin-top:10px">
-    <button class="btn small active" data-timer-mode="countdown">Countdown</button>
-    <button class="btn small" data-timer-mode="stopwatch">Stoppuhr</button>
-    <button class="btn small" data-timer-mode="intervals">Intervall × N</button>
-    <button class="btn small" id="timerAuto" title="Dauer aus gewählter Übung ableiten">An Übung anpassen</button>
+  <div class="timer-seg" role="group" aria-label="Timer-Modus">
+    <button class="btn active" data-timer-mode="countdown">⏱ Countdown</button>
+    <button class="btn" data-timer-mode="stopwatch">▶ Stoppuhr</button>
+    <button class="btn" data-timer-mode="intervals">⟲ Intervall</button>
+    <button class="btn timerAutoBtn" id="timerAuto" title="Dauer aus gewählter Übung ableiten">✨ An Übung anpassen</button>
   </div>
 
-  <div class="timer-extra" id="timerIntervalsRow" hidden>
-    <label class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Wdh.</label>
-    <input id="timerIntervals" type="number" min="1" max="20" value="3" style="max-width:70px;padding:7px 10px">
-    <label class="muted" style="font-size:.72rem;font-weight:800;text-transform:uppercase;letter-spacing:.06em">Pause</label>
-    <input id="timerRest" type="number" min="0" max="300" value="20" style="max-width:70px;padding:7px 10px">
-    <span class="muted" style="font-size:.78rem">Sek. zwischen Sätzen</span>
+  <div id="timerIntervalsRow" class="timer-settings" hidden>
+    <div class="timer-setting">
+      <label for="timerIntervals">Wiederholungen</label>
+      <input id="timerIntervals" type="number" min="1" max="20" value="3">
+    </div>
+    <div class="timer-setting">
+      <label for="timerRest">Pause (Sek.)</label>
+      <input id="timerRest" type="number" min="0" max="300" value="20">
+    </div>
   </div>
 
-  <div class="row" style="margin-top:12px">
-    <button class="btn primary" id="timerStart">Start</button>
-    <button class="btn" id="timerPause">Pause</button>
-    <button class="btn" id="timerReset">Reset</button>
-    <button class="btn soft" id="timerBeep" title="Beep testen">🔔</button>
+  <div class="timer-actions">
+    <button class="btn primary" id="timerStart">▶ Start</button>
+    <button class="btn" id="timerPause">⏸</button>
+    <button class="btn" id="timerReset">↺</button>
+    <button class="btn soft" id="timerBeep" title="Beep testen" aria-label="Beep testen">🔔</button>
   </div>
 </div><div class="card"><div class="fields"><div class="field"><label>Datum</label><input id="trDate" type="date"></div><div class="field"><label>Einheit / Notiz</label><input id="trNote" placeholder="z. B. Ganzkörper A"></div><div class="field"><label>RPE</label><input id="trRpe" type="number" min="1" max="10" placeholder="7"></div><div class="field"><label>Übung <button type="button" class="info-btn" id="exInfoBtn" title="Details &amp; Progression">?</button></label><select id="trExercise"></select><div id="exInfoPanel"></div></div><div class="field"><label>Sätze</label><input id="trSets" type="number" value="2"></div><div class="field"><label>Wdh. / Sekunden</label><input id="trReps" type="number" value="8"></div><div class="field"><label>Gewicht (kg)</label><input id="trWeight" type="number" step="0.5" value="0"></div><div class="field"><label>Notiz</label><input id="trExNote" placeholder="Technik, Gefühl …"></div></div><div class="row" style="margin-top:14px"><button class="btn primary" id="saveTraining">Einheit speichern</button><button class="btn" id="clearTraining">Leeren</button></div></div><div class="section-head"><h2>Einheiten Woche <span id="trainWeekTitle">1</span></h2></div><div class="card table"><table><thead><tr><th>Datum</th><th>Übung</th><th>Sätze × Wdh.</th><th>kg</th><th>RPE</th><th></th></tr></thead><tbody id="trainingRows"></tbody></table></div><div class="section-head"><h2>Fortschritt pro Übung</h2><select id="exerciseChartSelect" class="chart-select"></select></div><div class="card"><svg id="exerciseChart" class="chart" viewBox="0 0 900 240" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Volumen pro Woche</h2></div><div class="card"><svg id="volumeChart" class="chart" viewBox="0 0 900 240" preserveAspectRatio="none"></svg></div><div class="section-head"><h2>Fußübungen</h2><span class="pill">Einlagen links</span></div><div class="card"><div class="fields"><div class="field"><label>Fußübung ergänzen</label><input id="footName" placeholder="z. B. Zehen spreizen"></div><div class="field"><label>Notiz</label><input id="footNote" placeholder="2 × 60 Sekunden"></div><div class="field"><label>Datum</label><input id="footDate" type="date"></div><div class="field"><label>&nbsp;</label><button class="btn primary" id="addFoot">Fußübung speichern</button></div></div><div id="footRows" style="margin-top:14px"></div></div></section>
 <section id="nutrition" class="view"><div class="section-head"><h2>Ernährung</h2><span class="pill" id="calTarget">1.800 kcal · 137 g Protein</span></div><div class="days" id="mealDays"></div><div class="toolbar"><button class="btn soft" id="extraBtn">+ Extra gegessen</button><span class="muted" id="mealSummary"></span></div><div class="meal-grid" id="mealList"></div><div class="section-head"><h2>Wasser</h2></div><div class="card"><div class="row"><b id="waterText">0 / 8 Gläser</b><button class="btn" id="waterMinus">−</button><button class="btn primary" id="waterPlus">+ Glas</button></div></div></section>
@@ -291,31 +386,31 @@ document.querySelector('#training .section-head').querySelector('.row').appendCh
 
 /* ===== Smart Timer v2 (intelligent, exercise-aware) ===== */
 const EX_TIMES={
-  'Dead Bug':         {kind:'reps', stages:[{reps:6,sides:2,rest:10},{reps:8,sides:2,rest:12},{reps:9,sides:2,rest:15},{reps:11,sides:2,rest:15}],
+  'Dead Bug':         {kind:'reps', stages:[{reps:6,sides:2,rest:10},{reps:8,sides:2,rest:12},{reps:8,sides:2,rest:15},{reps:10,sides:2,rest:15}],
                         desc:'Kontrolle pro Seite, kein Rückenheben'},
-  'Wandhocke':        {kind:'time', stages:[{sec:20,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:37,sides:1,rest:30},{sec:52,sides:1,rest:30}],
+  'Wandhocke':        {kind:'time', stages:[{sec:20,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:45,sides:1,rest:30}],
                         desc:'Spannung halten, ruhig atmen'},
-  'Kniebeugen':       {kind:'reps', stages:[{reps:9,sides:1,rest:60},{reps:11,sides:1,rest:60},{reps:12,sides:1,rest:60},{reps:17,sides:1,rest:60}],
+  'Kniebeugen':       {kind:'reps', stages:[{reps:8,sides:1,rest:60},{reps:10,sides:1,rest:60},{reps:10,sides:1,rest:60},{reps:15,sides:1,rest:60}],
                         desc:'Tempo 2 s runter / 1 s hoch'},
-  'Ausfallschritt':   {kind:'reps', stages:[{reps:6,sides:2,rest:45},{reps:8,sides:2,rest:45},{reps:9,sides:2,rest:45},{reps:11,sides:2,rest:45}],
+  'Ausfallschritt':   {kind:'reps', stages:[{reps:6,sides:2,rest:45},{reps:8,sides:2,rest:45},{reps:8,sides:2,rest:45},{reps:10,sides:2,rest:45}],
                         desc:'Pro Seite sauber abfedern'},
-  'Beckenlift':       {kind:'reps', stages:[{reps:11,sides:1,rest:30},{reps:13,sides:1,rest:30},{reps:17,sides:1,rest:30},{reps:22,sides:1,rest:30}],
+  'Beckenlift':       {kind:'reps', stages:[{reps:10,sides:1,rest:30},{reps:12,sides:1,rest:30},{reps:15,sides:1,rest:30},{reps:20,sides:1,rest:30}],
                         desc:'Oben 1 s halten'},
-  'Liegestütze':      {kind:'reps', stages:[{reps:6,sides:1,rest:60},{reps:9,sides:1,rest:60},{reps:10,sides:1,rest:60},{reps:12,sides:1,rest:60}],
+  'Liegestütze':      {kind:'reps', stages:[{reps:5,sides:1,rest:60},{reps:8,sides:1,rest:60},{reps:8,sides:1,rest:60},{reps:10,sides:1,rest:60}],
                         desc:'Tempo 2–3 s absenken'},
-  'Schulterdrücken':  {kind:'reps', stages:[{reps:7,sides:1,rest:60},{reps:9,sides:1,rest:60},{reps:10,sides:1,rest:60},{reps:12,sides:1,rest:60}],
+  'Schulterdrücken':  {kind:'reps', stages:[{reps:6,sides:1,rest:60},{reps:8,sides:1,rest:60},{reps:8,sides:1,rest:60},{reps:10,sides:1,rest:60}],
                         desc:'Bauch fest'},
-  'Trizeps-Dips':     {kind:'reps', stages:[{reps:6,sides:1,rest:45},{reps:9,sides:1,rest:45},{reps:10,sides:1,rest:45},{reps:12,sides:1,rest:45}],
+  'Trizeps-Dips':     {kind:'reps', stages:[{reps:5,sides:1,rest:45},{reps:8,sides:1,rest:45},{reps:8,sides:1,rest:45},{reps:10,sides:1,rest:45}],
                         desc:'Ellenbogen nah am Körper'},
-  'Tischrudern':      {kind:'reps', stages:[{reps:9,sides:1,rest:45},{reps:11,sides:1,rest:45},{reps:13,sides:1,rest:45},{reps:17,sides:1,rest:45}],
+  'Tischrudern':      {kind:'reps', stages:[{reps:8,sides:1,rest:45},{reps:10,sides:1,rest:45},{reps:12,sides:1,rest:45},{reps:15,sides:1,rest:45}],
                         desc:'Aus dem Rücken ziehen'},
-  'KH-Hammer-Curls':  {kind:'reps', stages:[{reps:9,sides:1,rest:30},{reps:11,sides:1,rest:30},{reps:11,sides:1,rest:30},{reps:13,sides:1,rest:30}],
+  'KH-Hammer-Curls':  {kind:'reps', stages:[{reps:8,sides:1,rest:30},{reps:10,sides:1,rest:30},{reps:10,sides:1,rest:30},{reps:12,sides:1,rest:30}],
                         desc:'Kein Schwung'},
-  'Superman Hold':    {kind:'time', stages:[{sec:15,sides:1,rest:20},{sec:20,sides:1,rest:20},{sec:25,sides:1,rest:20},{sec:37,sides:1,rest:20}],
+  'Superman Hold':    {kind:'time', stages:[{sec:15,sides:1,rest:20},{sec:20,sides:1,rest:20},{sec:20,sides:1,rest:20},{sec:30,sides:1,rest:20}],
                         desc:'Klein anheben, weiteratmen'},
-  'Plank':            {kind:'time', stages:[{sec:20,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:37,sides:1,rest:30},{sec:52,sides:1,rest:30}],
+  'Plank':            {kind:'time', stages:[{sec:20,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:30,sides:1,rest:30},{sec:45,sides:1,rest:30}],
                         desc:'Linie halten, nicht ins Hohlkreuz'},
-  'Negativer Sit-Up': {kind:'reps', stages:[{reps:6,sides:1,rest:45},{reps:8,sides:1,rest:45},{reps:10,sides:1,rest:45},{reps:12,sides:1,rest:45}],
+  'Negativer Sit-Up': {kind:'reps', stages:[{reps:5,sides:1,rest:45},{reps:8,sides:1,rest:45},{reps:8,sides:1,rest:45},{reps:10,sides:1,rest:45}],
                         desc:'Tempo 3–5 s absenken'}
 };
 const FOOT_TIMES={
@@ -1321,21 +1416,21 @@ function renderExercisesRef(){
 }
 
 /* Inline-Panel unter dem Übungs-Dropdown im Training-Tab */
+let exInfoOpen=false; // Info-Panel standardmäßig eingeklappt; toggelt nur über '?'
+
 function refreshExerciseInfo(){
   const sel=document.getElementById('trExercise');
   const target=document.getElementById('exInfoPanel');
   if(!sel||!target) return;
+  if(!exInfoOpen){ target.innerHTML=''; return; }
   const name = (allExercises()[+sel.value]||[])[0] || '';
   if(!name || !EX_DETAILS[name]){ target.innerHTML=''; return; }
   target.innerHTML = renderExerciseInfo(name);
 }
 
 document.getElementById('exInfoBtn').onclick=()=>{
-  const t=document.getElementById('exInfoPanel');
-  if(!t) return;
+  exInfoOpen=!exInfoOpen;
   refreshExerciseInfo();
-  // toggle
-  if(t.innerHTML){ t.innerHTML=''; return; }
 };
 /* Sel-Change Hook in renderTraining (preserves original wiring, also refreshes mini) */
 const _origRenderTraining = renderTraining;
@@ -1399,6 +1494,9 @@ try{
   }
 }catch(e){}
 </script><script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
 <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"8607d2a720d14b038279025b2b5a82e5","spa":2}' crossorigin="anonymous"></script>
