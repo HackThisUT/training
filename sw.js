@@ -1,5 +1,5 @@
 // Andreas PWA Service Worker
-const CACHE_NAME = 'andreas-pwa-v3';
+const CACHE_NAME = 'andreas-pwa-v4';
 const SHELL = [
   './',
   './index.html',
